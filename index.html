@@ -1,0 +1,2922 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Real &amp; Sujit | Wedding Invitation</title>
+
+  <!-- =========================================================================
+       OPEN GRAPH & WHATSAPP LINK PREVIEW META TAGS
+       HOSTING INSTRUCTIONS:
+       1. Save your attached couple photo as "og-image.jpg" in the same folder
+          as this index.html file (recommended: 1200x630px JPEG under 300KB).
+       2. Replace "https://YOUR-DOMAIN.com/og-image.jpg" below with the live
+          HTTPS URL where you upload your invitation (e.g., Netlify, Vercel,
+          or GitHub Pages) so WhatsApp displays your photo card automatically.
+       ========================================================================= -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Real &amp; Sujit | Wedding Invitation" />
+  <meta property="og:description" content="With the blessings of Lord Jagannath, join us to celebrate the wedding of Real Chhatoi &amp; Sujit Subham Das. Save the Dates: 13 Dec 2026 – 3 Mar 2027." />
+  <meta property="og:image" content="https://YOUR-DOMAIN.com/og-image.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Real &amp; Sujit | Wedding Invitation" />
+  <meta name="twitter:description" content="With the blessings of Lord Jagannath, join us to celebrate the wedding of Real Chhatoi &amp; Sujit Subham Das. Save the Dates: 13 Dec 2026 – 3 Mar 2027." />
+  <meta name="twitter:image" content="https://YOUR-DOMAIN.com/og-image.jpg" />
+  <meta name="theme-color" content="#3A040C" />
+
+  <!-- Google Fonts: Cinzel Decorative, Cormorant Garamond, Poppins & Noto Sans Oriya -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Noto+Sans+Oriya:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            kalinga: {
+              deep: '#1F0207',
+              maroon: '#3A040C',
+              crimson: '#5E0815',
+              sindoor: '#7D0B1B',
+            },
+            temple: {
+              gold: '#D4AF37',
+              light: '#F5DC87',
+              pale: '#FCEEB5',
+              antique: '#8C651B',
+              bronze: '#6B4C12',
+            },
+            parchment: {
+              ivory: '#FAF3E0',
+              cream: '#F2E5C6',
+              warm: '#E8D5B0',
+            }
+          },
+          fontFamily: {
+            display: ['"Cinzel Decorative"', 'serif'],
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Poppins"', 'sans-serif'],
+            odia: ['"Noto Sans Oriya"', 'serif'],
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* =========================================================================
+       ROYAL KALINGA HERITAGE — 3D CINEMATIC STYLES, GOLD FOIL & MOOD ENGINE
+       ========================================================================= */
+    :root {
+      --bg-primary: #4A0612;
+      --bg-secondary: #1A0206;
+      --accent-glow: rgba(212, 175, 55, 0.25);
+      --accent-secondary: rgba(125, 11, 27, 0.28);
+    }
+
+    html, body {
+      background-color: var(--bg-secondary);
+      color: #FAF3E0;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Prevent scrolling while the 3D Kalinga temple doors are closed */
+    body.doors-locked {
+      overflow: hidden;
+      height: 100dvh;
+    }
+
+    /* Dynamic Scroll-Driven Ambient Mood Backdrop */
+    #ambient-mood-bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(circle at 50% 18%, var(--accent-glow) 0%, transparent 58%),
+        radial-gradient(circle at 82% 76%, var(--accent-secondary) 0%, transparent 56%),
+        radial-gradient(circle at 50% 80%, var(--bg-primary) 0%, var(--bg-secondary) 86%);
+      transition: background 1.25s ease;
+      pointer-events: none;
+    }
+
+    /* Subtle Woven Silk & Temple Sandstone Dot Grain */
+    #ambient-texture {
+      position: fixed;
+      inset: 0;
+      z-index: 1;
+      opacity: 0.055;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(245, 220, 135, 0.78) 0.75px, transparent 0.75px);
+      background-size: 26px 26px;
+    }
+
+    /* Fullscreen Depth-of-Field Particle & Burst Canvas */
+    #atmosphere-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    /* =========================================================================
+       SPECULAR METALLIC GOLD FOIL SHIMMER
+       ========================================================================= */
+    .gold-foil-text {
+      background: linear-gradient(
+        115deg,
+        #9F7928 0%,
+        #D4AF37 22%,
+        #FFF7C9 44%,
+        #F5DC87 54%,
+        #C3922E 72%,
+        #FFF0A6 88%,
+        #9F7928 100%
+      );
+      background-size: 240% auto;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: goldShimmer 6.5s linear infinite;
+      filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.48));
+    }
+
+    @keyframes goldShimmer {
+      0% { background-position: 0% center; }
+      100% { background-position: 240% center; }
+    }
+
+    .gold-border-glow {
+      border: 1px solid rgba(212, 175, 55, 0.38);
+      box-shadow:
+        0 0 0 1px rgba(245, 220, 135, 0.12) inset,
+        0 18px 46px rgba(0, 0, 0, 0.56),
+        0 0 28px rgba(212, 175, 55, 0.09);
+    }
+
+    /* =========================================================================
+       ACT 1: 3D CARVED KALINGA TEMPLE DOORS & NEELACHAKRA WAX SEAL STAGE
+       ========================================================================= */
+    #door-stage {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      perspective: 1700px;
+      perspective-origin: 50% 50%;
+      overflow: hidden;
+      transition: opacity 0.95s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.95s ease;
+    }
+
+    #door-stage.doors-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .door-leaf {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 50.25%;
+      transform-style: preserve-3d;
+      backface-visibility: hidden;
+      will-change: transform;
+      transition: transform 2.15s cubic-bezier(0.24, 0.9, 0.25, 1), filter 1.6s ease;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(125, 11, 27, 0.56) 0%, rgba(58, 4, 12, 0.97) 70%, #1F0207 100%);
+      box-shadow: inset 0 0 65px rgba(0, 0, 0, 0.84);
+    }
+
+    .door-leaf-left {
+      left: 0;
+      transform-origin: left center;
+      border-right: 2px solid rgba(212, 175, 55, 0.72);
+    }
+
+    .door-leaf-right {
+      right: 0;
+      transform-origin: right center;
+      border-left: 2px solid rgba(212, 175, 55, 0.72);
+    }
+
+    .door-carved-frame {
+      position: absolute;
+      inset: 12px;
+      border: 1.5px solid rgba(212, 175, 55, 0.48);
+      box-shadow:
+        inset 0 0 0 6px rgba(31, 2, 7, 0.9),
+        inset 0 0 0 7.5px rgba(212, 175, 55, 0.34),
+        inset 0 12px 35px rgba(0, 0, 0, 0.7);
+      pointer-events: none;
+    }
+
+    /* 3D Outward Door Swing (+/-110deg) */
+    #door-stage.is-opening .door-leaf-left {
+      transform: rotateY(-110deg) translateZ(18px);
+      filter: brightness(0.65);
+    }
+
+    #door-stage.is-opening .door-leaf-right {
+      transform: rotateY(110deg) translateZ(18px);
+      filter: brightness(0.65);
+    }
+
+    #wax-seal-wrapper {
+      transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.68s ease, filter 0.65s ease;
+      transform-style: preserve-3d;
+    }
+
+    #door-stage.is-opening #wax-seal-wrapper {
+      transform: scale(1.34) translateZ(150px);
+      filter: brightness(1.45);
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* Embossed Metallic Gold Neelachakra Wax Seal Button */
+    .wax-seal-btn {
+      position: relative;
+      background:
+        radial-gradient(circle at 32% 28%, #FFF6C2 0%, #E5C158 26%, #B8871E 62%, #6E4A0B 100%);
+      box-shadow:
+        0 14px 36px rgba(0, 0, 0, 0.76),
+        0 0 0 4px rgba(140, 101, 27, 0.6),
+        0 0 0 8px rgba(212, 175, 55, 0.25),
+        inset 0 3px 9px rgba(255, 250, 215, 0.82),
+        inset 0 -6px 15px rgba(72, 42, 4, 0.88);
+      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.35s ease;
+    }
+
+    .wax-seal-btn:hover,
+    .wax-seal-btn:focus-visible {
+      transform: scale(1.06);
+      box-shadow:
+        0 18px 46px rgba(0, 0, 0, 0.84),
+        0 0 40px rgba(245, 220, 135, 0.58),
+        0 0 0 4px rgba(245, 220, 135, 0.78),
+        inset 0 3px 10px rgba(255, 250, 215, 0.92);
+      outline: none;
+    }
+
+    .wax-seal-btn:active {
+      transform: scale(0.95);
+    }
+
+    .seal-pulse-ring {
+      animation: sealPulse 2.8s ease-out infinite;
+    }
+
+    @keyframes sealPulse {
+      0% { transform: scale(0.95); opacity: 0.75; }
+      70% { transform: scale(1.42); opacity: 0; }
+      100% { transform: scale(1.42); opacity: 0; }
+    }
+
+    /* 3D Camera Push-In Reveal for Main Invitation */
+    #main-invitation {
+      transform: scale(0.9);
+      opacity: 0.25;
+      transition: transform 1.9s cubic-bezier(0.22, 1, 0.36, 1), opacity 1.5s ease;
+      transform-origin: 50% 16vh;
+    }
+
+    #main-invitation.courtyard-revealed {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    /* =========================================================================
+       FLOATING AUDIO PILL — 4-BAR GOLDEN SOUNDWAVE INDICATOR
+       ========================================================================= */
+    .wave-bar {
+      width: 2.5px;
+      border-radius: 9999px;
+      background: linear-gradient(180deg, #FFF3B0, #D4AF37);
+      transform-origin: bottom;
+      animation: soundWave 1.05s ease-in-out infinite alternate;
+    }
+    .wave-bar:nth-child(1) { height: 7px; animation-delay: 0s; }
+    .wave-bar:nth-child(2) { height: 14px; animation-delay: 0.22s; }
+    .wave-bar:nth-child(3) { height: 10px; animation-delay: 0.44s; }
+    .wave-bar:nth-child(4) { height: 13px; animation-delay: 0.16s; }
+
+    .audio-paused .wave-bar {
+      animation: none;
+      height: 3px !important;
+      opacity: 0.45;
+    }
+
+    @keyframes soundWave {
+      0% { transform: scaleY(0.32); }
+      100% { transform: scaleY(1.15); }
+    }
+
+    /* =========================================================================
+       HERO: MANDALA HALO, FLUTTERING PATITAPABANA BANA & 3D PARALLAX
+       ========================================================================= */
+    .mandala-spin-slow {
+      animation: spinSlow 48s linear infinite;
+      transform-origin: center;
+    }
+
+    .mandala-spin-reverse {
+      animation: spinSlowReverse 66s linear infinite;
+      transform-origin: center;
+    }
+
+    @keyframes spinSlow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes spinSlowReverse {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+
+    .patitapabana-flag {
+      transform-origin: 200px 44px;
+      animation: flagFlutter 3.1s ease-in-out infinite;
+    }
+
+    @keyframes flagFlutter {
+      0%, 100% { transform: skewY(0deg) scaleX(1); }
+      35% { transform: skewY(-4.5deg) scaleX(0.95); }
+      65% { transform: skewY(3.2deg) scaleX(1.03); }
+    }
+
+    .hero-parallax-stage {
+      perspective: 1100px;
+      transform-style: preserve-3d;
+    }
+
+    .hero-parallax-layer {
+      transition: transform 0.22s ease-out;
+      will-change: transform;
+    }
+
+    /* =========================================================================
+       3D TILT-REACTIVE CARDS & ROYAL ARCH COUPLE PORTRAIT FRAME
+       ========================================================================= */
+    .tilt-3d-wrapper {
+      perspective: 1200px;
+    }
+
+    .tilt-3d-surface {
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.22s ease-out, box-shadow 0.35s ease;
+      will-change: transform;
+    }
+
+    .tilt-3d-surface::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: radial-gradient(
+        circle at var(--sheen-x, 50%) var(--sheen-y, 28%),
+        rgba(255, 245, 190, 0.22) 0%,
+        rgba(212, 175, 55, 0.07) 36%,
+        transparent 70%
+      );
+      opacity: var(--sheen-opacity, 0.38);
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      z-index: 20;
+    }
+
+    /* Royal Kalinga Arch Portrait Shape */
+    .royal-arch-frame {
+      border-top-left-radius: 9999px;
+      border-top-right-radius: 9999px;
+      border-bottom-left-radius: 1.5rem;
+      border-bottom-right-radius: 1.5rem;
+      background: linear-gradient(145deg, #F5DC87 0%, #9E711C 38%, #E6C157 68%, #6D490C 100%);
+      padding: 4px;
+      box-shadow:
+        0 26px 64px rgba(0, 0, 0, 0.72),
+        0 0 42px rgba(212, 175, 55, 0.24);
+    }
+
+    .royal-arch-inner {
+      border-top-left-radius: 9999px;
+      border-top-right-radius: 9999px;
+      border-bottom-left-radius: 1.32rem;
+      border-bottom-right-radius: 1.32rem;
+      background:
+        radial-gradient(circle at 50% 25%, rgba(125, 11, 27, 0.65) 0%, rgba(45, 4, 11, 0.96) 65%, #1A0206 100%);
+    }
+
+    .event-card-glass {
+      background: linear-gradient(
+        145deg,
+        rgba(56, 5, 14, 0.72) 0%,
+        rgba(24, 3, 9, 0.87) 100%
+      );
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .event-card-featured {
+      background: linear-gradient(
+        145deg,
+        rgba(108, 10, 24, 0.84) 0%,
+        rgba(46, 4, 11, 0.93) 55%,
+        rgba(86, 36, 9, 0.86) 100%
+      );
+      border: 1.5px solid rgba(245, 220, 135, 0.7);
+      box-shadow:
+        0 0 0 1px rgba(245, 220, 135, 0.22) inset,
+        0 24px 60px rgba(0, 0, 0, 0.65),
+        0 0 42px rgba(212, 175, 55, 0.25);
+    }
+
+    /* Scroll Entrance Animations */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(34px) scale(0.97);
+      transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+                  transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .reveal-on-scroll.is-visible {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .countdown-pop {
+      animation: cdPop 0.35s ease;
+    }
+    @keyframes cdPop {
+      0% { transform: scale(0.95); opacity: 0.6; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #1A0206; }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #8C651B, #D4AF37);
+      border-radius: 9999px;
+    }
+
+    /* Toast Banner */
+    #toast-banner {
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.4s ease;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .mandala-spin-slow, .mandala-spin-reverse, .patitapabana-flag, .seal-pulse-ring, .gold-foil-text, .wave-bar {
+        animation: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="doors-locked selection:bg-temple-gold/30 selection:text-parchment-ivory">
+
+  <!-- =========================================================================
+       OPTIONAL CUSTOM MP3 MUSIC HOOK
+       To use your own custom Bollywood or Odia instrumental MP3 later, simply
+       add src="your-song.mp3" or uncomment the <source> tag below. It will
+       automatically fade in smoothly 1.1s after the opening temple bell chime.
+       ========================================================================= -->
+  <audio id="custom-music-track" loop preload="none">
+    <!-- <source src="./wedding-song.mp3" type="audio/mpeg" /> -->
+  </audio>
+
+  <!-- =========================================================================
+       DYNAMIC AMBIENT MOOD BACKDROP & FULL-SCREEN DEPTH PARTICLE CANVAS
+       ========================================================================= -->
+  <div id="ambient-mood-bg" aria-hidden="true"></div>
+  <div id="ambient-texture" aria-hidden="true"></div>
+  <canvas id="atmosphere-canvas" aria-hidden="true"></canvas>
+
+  <!-- =========================================================================
+       FLOATING TOP-RIGHT AUDIO CONTROL PILL (VISIBLE AFTER DOORS OPEN)
+       ========================================================================= -->
+  <div
+    id="audio-control-pill"
+    class="fixed top-3.5 right-3.5 z-50 hidden items-center gap-1.5 rounded-full bg-kalinga-deep/88 p-1.5 pl-3 text-xs text-temple-light border border-temple-gold/48 backdrop-blur-md shadow-[0_8px_28px_rgba(0,0,0,0.58)]"
+  >
+    <button
+      id="audio-toggle-btn"
+      type="button"
+      aria-label="Mute or unmute wedding background music"
+      class="flex items-center gap-2 rounded-full pr-2 py-1 transition hover:text-temple-pale active:scale-95"
+    >
+      <span id="soundwave-bars" class="flex items-end gap-[2.5px] h-4" aria-hidden="true">
+        <span class="wave-bar"></span>
+        <span class="wave-bar"></span>
+        <span class="wave-bar"></span>
+        <span class="wave-bar"></span>
+      </span>
+      <span id="audio-status-label" class="font-semibold uppercase tracking-wider text-[10px] sm:text-[11px]">
+        Sound On
+      </span>
+    </button>
+
+    <span class="h-4 w-[1px] bg-temple-gold/30" aria-hidden="true"></span>
+
+    <button
+      id="music-style-btn"
+      type="button"
+      aria-label="Switch instrumental music style"
+      title="Toggle between Flute & Santoor and Temple Drone"
+      class="rounded-full bg-temple-gold/20 border border-temple-gold/45 px-2.5 py-1 text-[10px] sm:text-[11px] font-medium tracking-wide text-temple-pale transition hover:bg-temple-gold/35 active:scale-95"
+    >
+      Flute &amp; Santoor
+    </button>
+  </div>
+
+  <!-- Subtle Floating Chapter Indicator Pill (Desktop) -->
+  <div
+    id="chapter-indicator"
+    class="fixed bottom-4 left-4 z-40 hidden md:flex items-center gap-2.5 rounded-full bg-kalinga-deep/80 px-4 py-2 text-[11px] uppercase tracking-[0.2em] text-temple-light/90 border border-temple-gold/30 backdrop-blur-md opacity-0 transition-opacity duration-500 pointer-events-none"
+  >
+    <span id="chapter-dot" class="h-2 w-2 rounded-full bg-temple-gold shadow-[0_0_8px_#D4AF37]"></span>
+    <span id="chapter-label">Shree Jagannath Invocation</span>
+  </div>
+
+  <!-- Non-Intrusive Toast Message Box (Replaces any browser alert) -->
+  <div
+    id="toast-banner"
+    role="status"
+    aria-live="polite"
+    class="fixed bottom-5 left-1/2 z-50 -translate-x-1/2 translate-y-20 opacity-0 pointer-events-none rounded-full bg-kalinga-deep/95 border border-temple-gold/65 px-5 py-2.5 text-xs sm:text-sm text-parchment-ivory shadow-2xl backdrop-blur-md flex items-center gap-2.5 max-w-[92vw]"
+  >
+    <span class="inline-block h-2 w-2 rounded-full bg-temple-light shrink-0"></span>
+    <span id="toast-message">Notification</span>
+  </div>
+
+  <!-- =========================================================================
+       ACT 1: FULLSCREEN 3D CARVED KALINGA TEMPLE DOORS & NEELACHAKRA WAX SEAL
+       ========================================================================= -->
+  <section id="door-stage" aria-label="Interactive 3D Carved Kalinga Temple Doors">
+    <!-- Left Carved Temple Door -->
+    <div class="door-leaf door-leaf-left">
+      <div class="door-carved-frame rounded-l-sm">
+        <!-- Odia Jhoti Chita Corner Filigree -->
+        <svg class="absolute top-3 left-3 w-16 h-16 sm:w-24 sm:h-24 text-temple-gold/48" viewBox="0 0 100 100" fill="none">
+          <path d="M6 6 H60 C35 12 12 35 6 60 Z" stroke="currentColor" stroke-width="1.2" fill="rgba(212,175,55,0.06)"/>
+          <path d="M12 12 C28 14 40 24 44 40 C28 38 14 28 12 12 Z" stroke="currentColor" stroke-width="1.3" />
+          <path d="M16 42 C24 38 30 44 26 52 C20 52 16 48 16 42 Z" stroke="currentColor" stroke-width="1.1" />
+          <path d="M42 16 C48 16 52 20 52 26 C44 30 38 24 42 16 Z" stroke="currentColor" stroke-width="1.1" />
+          <circle cx="24" cy="24" r="3" fill="currentColor" />
+          <circle cx="58" cy="14" r="1.8" fill="currentColor" />
+          <circle cx="14" cy="58" r="1.8" fill="currentColor" />
+        </svg>
+        <svg class="absolute bottom-3 left-3 w-16 h-16 sm:w-24 sm:h-24 text-temple-gold/48 -scale-y-100" viewBox="0 0 100 100" fill="none">
+          <path d="M6 6 H60 C35 12 12 35 6 60 Z" stroke="currentColor" stroke-width="1.2" fill="rgba(212,175,55,0.06)"/>
+          <path d="M12 12 C28 14 40 24 44 40 C28 38 14 28 12 12 Z" stroke="currentColor" stroke-width="1.3" />
+          <circle cx="24" cy="24" r="3" fill="currentColor" />
+        </svg>
+        <!-- Carved Architectural Arch & Embossed Brass Studs -->
+        <svg class="absolute inset-y-14 right-3 sm:right-10 h-[calc(100%-7rem)] w-24 sm:w-44 text-temple-gold/28" viewBox="0 0 160 500" preserveAspectRatio="none" fill="none">
+          <path d="M158 10 C95 15 45 55 30 115 L30 490 L158 490" stroke="currentColor" stroke-width="2" />
+          <path d="M158 28 C104 34 62 70 48 125 L48 474 L158 474" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4" />
+          <circle cx="136" cy="95" r="4.2" fill="rgba(245,220,135,0.52)" />
+          <circle cx="136" cy="172" r="4.2" fill="rgba(245,220,135,0.52)" />
+          <circle cx="136" cy="250" r="4.8" fill="rgba(245,220,135,0.62)" />
+          <circle cx="136" cy="328" r="4.2" fill="rgba(245,220,135,0.52)" />
+          <circle cx="136" cy="405" r="4.2" fill="rgba(245,220,135,0.52)" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Right Carved Temple Door -->
+    <div class="door-leaf door-leaf-right">
+      <div class="door-carved-frame rounded-r-sm">
+        <svg class="absolute top-3 right-3 w-16 h-16 sm:w-24 sm:h-24 text-temple-gold/48 -scale-x-100" viewBox="0 0 100 100" fill="none">
+          <path d="M6 6 H60 C35 12 12 35 6 60 Z" stroke="currentColor" stroke-width="1.2" fill="rgba(212,175,55,0.06)"/>
+          <path d="M12 12 C28 14 40 24 44 40 C28 38 14 28 12 12 Z" stroke="currentColor" stroke-width="1.3" />
+          <path d="M16 42 C24 38 30 44 26 52 C20 52 16 48 16 42 Z" stroke="currentColor" stroke-width="1.1" />
+          <path d="M42 16 C48 16 52 20 52 26 C44 30 38 24 42 16 Z" stroke="currentColor" stroke-width="1.1" />
+          <circle cx="24" cy="24" r="3" fill="currentColor" />
+          <circle cx="58" cy="14" r="1.8" fill="currentColor" />
+          <circle cx="14" cy="58" r="1.8" fill="currentColor" />
+        </svg>
+        <svg class="absolute bottom-3 right-3 w-16 h-16 sm:w-24 sm:h-24 text-temple-gold/48 -scale-x-100 -scale-y-100" viewBox="0 0 100 100" fill="none">
+          <path d="M6 6 H60 C35 12 12 35 6 60 Z" stroke="currentColor" stroke-width="1.2" fill="rgba(212,175,55,0.06)"/>
+          <path d="M12 12 C28 14 40 24 44 40 C28 38 14 28 12 12 Z" stroke="currentColor" stroke-width="1.3" />
+          <circle cx="24" cy="24" r="3" fill="currentColor" />
+        </svg>
+        <svg class="absolute inset-y-14 left-3 sm:left-10 h-[calc(100%-7rem)] w-24 sm:w-44 text-temple-gold/28 -scale-x-100" viewBox="0 0 160 500" preserveAspectRatio="none" fill="none">
+          <path d="M158 10 C95 15 45 55 30 115 L30 490 L158 490" stroke="currentColor" stroke-width="2" />
+          <path d="M158 28 C104 34 62 70 48 125 L48 474 L158 474" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4" />
+          <circle cx="136" cy="95" r="4.2" fill="rgba(245,220,135,0.52)" />
+          <circle cx="136" cy="172" r="4.2" fill="rgba(245,220,135,0.52)" />
+          <circle cx="136" cy="250" r="4.8" fill="rgba(245,220,135,0.62)" />
+          <circle cx="136" cy="328" r="4.2" fill="rgba(245,220,135,0.52)" />
+          <circle cx="136" cy="405" r="4.2" fill="rgba(245,220,135,0.52)" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Centerpiece: Auspicious Odia Invocation + Embossed 3D Neelachakra Wax Seal -->
+    <div id="wax-seal-wrapper" class="relative z-20 flex h-full w-full flex-col items-center justify-center px-6 text-center">
+      <div class="mb-7 sm:mb-9 space-y-2">
+        <p class="font-odia text-lg sm:text-2xl font-semibold tracking-wide gold-foil-text">
+          ॥ ଶ୍ରୀ ଜଗନ୍ନାଥାୟ ନମଃ ॥
+        </p>
+        <p class="font-serif italic text-sm sm:text-base tracking-[0.22em] text-parchment-cream/85 uppercase">
+          Subha Bibaha Nimantrana
+        </p>
+      </div>
+
+      <!-- Embossed Metallic Gold Neelachakra Wax Seal ("R & S") -->
+      <div class="relative flex items-center justify-center">
+        <span class="seal-pulse-ring absolute h-40 w-40 sm:h-48 sm:w-48 rounded-full border border-temple-light/60 pointer-events-none"></span>
+        <span class="seal-pulse-ring absolute h-48 w-48 sm:h-56 sm:w-56 rounded-full border border-temple-gold/30 pointer-events-none" style="animation-delay: 1.2s;"></span>
+
+        <button
+          id="open-invitation-btn"
+          type="button"
+          aria-label="Tap the Sacred Seal to Open Invitation"
+          class="wax-seal-btn group flex h-40 w-40 sm:h-48 sm:w-48 cursor-pointer flex-col items-center justify-center rounded-full p-3"
+        >
+          <svg class="h-28 w-28 sm:h-32 sm:w-32 text-[#3B1D03] drop-shadow-[0_1px_1px_rgba(255,248,200,0.82)] transition-transform duration-700 group-hover:scale-105" viewBox="0 0 130 130" fill="none">
+            <circle cx="65" cy="65" r="59" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 3" opacity="0.65" />
+            <circle cx="65" cy="65" r="50" stroke="currentColor" stroke-width="2.5" />
+            <circle cx="65" cy="65" r="42" stroke="currentColor" stroke-width="1.4" />
+            <!-- 8-Spoked Sacred Neelachakra -->
+            <g stroke="currentColor" stroke-width="2.3" stroke-linecap="round">
+              <line x1="65" y1="18" x2="65" y2="112" />
+              <line x1="18" y1="65" x2="112" y2="65" />
+              <line x1="31" y1="31" x2="99" y2="99" />
+              <line x1="99" y1="31" x2="31" y2="99" />
+            </g>
+            <!-- Sacred Chakra Flame Tips -->
+            <g fill="currentColor">
+              <polygon points="65,7 68,16 62,16" />
+              <polygon points="65,123 68,114 62,114" />
+              <polygon points="7,65 16,68 16,62" />
+              <polygon points="123,65 114,68 114,62" />
+              <polygon points="24,24 32,28 28,32" />
+              <polygon points="106,24 98,28 102,32" />
+              <polygon points="24,106 32,102 28,98" />
+              <polygon points="106,106 98,102 102,98" />
+            </g>
+            <!-- Central Embossed Medallion bearing "R & S" -->
+            <circle cx="65" cy="65" r="21" fill="#E6C35A" stroke="currentColor" stroke-width="2.2" />
+            <circle cx="65" cy="65" r="17.5" stroke="currentColor" stroke-width="0.9" opacity="0.65" />
+            <text x="65" y="69.5" text-anchor="middle" fill="currentColor" font-family="Cinzel Decorative, serif" font-size="13" font-weight="900">R &amp; S</text>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Subtitle Prompt & Open CTA -->
+      <div class="mt-8 sm:mt-10 space-y-3">
+        <p class="font-display text-xl sm:text-2xl tracking-[0.22em] text-temple-pale uppercase">
+          Real &amp; Sujit
+        </p>
+        <button
+          id="open-invitation-cta-text"
+          type="button"
+          class="inline-flex items-center gap-2.5 rounded-full border border-temple-gold/65 bg-kalinga-deep/85 px-6 py-3 text-xs sm:text-sm font-medium uppercase tracking-[0.18em] text-temple-light shadow-xl backdrop-blur-sm transition hover:bg-kalinga-crimson/90 hover:border-temple-light active:scale-95"
+        >
+          <span>Tap the Sacred Seal to Open Invitation</span>
+        </button>
+        <p class="text-[11px] text-parchment-cream/65 tracking-widest uppercase">
+          Sound on for Kalinga temple bell &amp; classical flute
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       MAIN COURTYARD INVITATION EXPERIENCE
+       ========================================================================= -->
+  <main id="main-invitation" class="relative z-10 w-full overflow-x-hidden">
+
+    <!-- =======================================================================
+         SECTION 1: PURI SHREEMANDIRA 3D PARALLAX HERO
+         ======================================================================= -->
+    <section
+      id="hero-section"
+      data-mood="hero"
+      data-chapter="Shree Jagannath Invocation"
+      class="relative flex min-h-[100dvh] flex-col items-center justify-between px-4 pt-14 pb-8 sm:pt-16 sm:pb-10 text-center"
+    >
+      <!-- Top Auspicious Invocation -->
+      <div class="w-full max-w-md flex items-center justify-center gap-3 opacity-90">
+        <span class="h-[1px] flex-1 bg-gradient-to-r from-transparent to-temple-gold/75"></span>
+        <span class="font-odia text-sm sm:text-base text-temple-light tracking-wider">॥ ଶ୍ରୀ ଜଗନ୍ନାଥାୟ ନମଃ ॥</span>
+        <span class="h-[1px] flex-1 bg-gradient-to-l from-transparent to-temple-gold/75"></span>
+      </div>
+
+      <!-- Layered 3D Parallax Hero Stage -->
+      <div class="hero-parallax-stage relative my-auto flex flex-col items-center justify-center w-full max-w-xl py-3">
+
+        <!-- Layer 1 (Deep): Slowly Rotating Filigree Golden Mandala Halo -->
+        <div class="hero-parallax-layer pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[310px] h-[310px] sm:w-[440px] sm:h-[440px] opacity-30" data-depth="14">
+          <svg viewBox="0 0 300 300" class="w-full h-full text-temple-gold">
+            <defs>
+              <radialGradient id="haloGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#F5DC87" stop-opacity="0.48" />
+                <stop offset="55%" stop-color="#D4AF37" stop-opacity="0.14" />
+                <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+            <circle cx="150" cy="150" r="146" fill="url(#haloGlow)" />
+            <g class="mandala-spin-slow" stroke="currentColor" fill="none">
+              <circle cx="150" cy="150" r="136" stroke-width="0.8" stroke-dasharray="3 5" />
+              <circle cx="150" cy="150" r="122" stroke-width="1" />
+              <g stroke-width="0.85" opacity="0.85">
+                <ellipse cx="150" cy="48" rx="11" ry="26" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(30 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(60 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(90 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(120 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(150 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(180 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(210 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(240 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(270 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(300 150 150)" />
+                <ellipse cx="150" cy="48" rx="11" ry="26" transform="rotate(330 150 150)" />
+              </g>
+            </g>
+            <g class="mandala-spin-reverse" stroke="currentColor" fill="none" opacity="0.65">
+              <circle cx="150" cy="150" r="92" stroke-width="0.9" stroke-dasharray="6 4" />
+              <circle cx="150" cy="150" r="72" stroke-width="0.7" />
+            </g>
+          </svg>
+        </div>
+
+        <!-- Layer 2 (Mid): Minimalist Golden Chaka Akhi Motif -->
+        <div class="hero-parallax-layer relative z-10 flex flex-col items-center" data-depth="22">
+          <svg class="w-24 h-11 sm:w-28 sm:h-12 drop-shadow-[0_2px_12px_rgba(212,175,55,0.48)]" viewBox="0 0 180 76" fill="none" aria-label="Minimalist golden Chaka Akhi motif of Lord Jagannath">
+            <defs>
+              <linearGradient id="chakaGold" x1="0" y1="0" x2="180" y2="76" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#D4AF37" />
+                <stop offset="50%" stop-color="#FFF2B2" />
+                <stop offset="100%" stop-color="#B8861E" />
+              </linearGradient>
+            </defs>
+            <path d="M84 14 L84 30 C84 35 96 35 96 30 L96 14" stroke="url(#chakaGold)" stroke-width="2.2" stroke-linecap="round" />
+            <circle cx="90" cy="23" r="3" fill="#E63946" stroke="url(#chakaGold)" stroke-width="1" />
+            <circle cx="52" cy="44" r="17" stroke="url(#chakaGold)" stroke-width="2" fill="rgba(250,243,224,0.06)" />
+            <circle cx="52" cy="44" r="11" stroke="url(#chakaGold)" stroke-width="1.2" opacity="0.8" />
+            <circle cx="52" cy="44" r="5.5" fill="url(#chakaGold)" />
+            <circle cx="128" cy="44" r="17" stroke="url(#chakaGold)" stroke-width="2" fill="rgba(250,243,224,0.06)" />
+            <circle cx="128" cy="44" r="11" stroke="url(#chakaGold)" stroke-width="1.2" opacity="0.8" />
+            <circle cx="128" cy="44" r="5.5" fill="url(#chakaGold)" />
+            <path d="M58 65 Q90 75 122 65" stroke="url(#chakaGold)" stroke-width="1.8" stroke-linecap="round" opacity="0.85" />
+          </svg>
+          <p class="mt-1 font-serif italic text-xs sm:text-sm tracking-[0.18em] text-temple-pale/90">
+            With the Divine Blessings of Mahaprabhu Shree Jagannath
+          </p>
+        </div>
+
+        <!-- Layer 3 (Foreground): Golden Vector Puri Shreemandira (Jagannath Temple) -->
+        <div class="hero-parallax-layer relative z-10 mt-2 w-full max-w-[300px] sm:max-w-[385px]" data-depth="30">
+          <svg viewBox="0 0 400 285" class="w-full h-auto drop-shadow-[0_14px_30px_rgba(0,0,0,0.68)]" fill="none" aria-label="Golden architectural illustration of Puri Shree Jagannath Temple">
+            <defs>
+              <linearGradient id="templeGoldGrad" x1="200" y1="20" x2="200" y2="275" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FFF4BE" />
+                <stop offset="35%" stop-color="#E5C05B" />
+                <stop offset="75%" stop-color="#B8861E" />
+                <stop offset="100%" stop-color="#6B470C" />
+              </linearGradient>
+              <linearGradient id="flagCrimsonGold" x1="200" y1="40" x2="295" y2="75" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FF5E5B" />
+                <stop offset="48%" stop-color="#DC2626" />
+                <stop offset="100%" stop-color="#F5DC87" />
+              </linearGradient>
+              <linearGradient id="templeFill" x1="200" y1="60" x2="200" y2="270" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="rgba(245, 220, 135, 0.24)" />
+                <stop offset="65%" stop-color="rgba(212, 175, 55, 0.1)" />
+                <stop offset="100%" stop-color="rgba(58, 4, 12, 0.58)" />
+              </linearGradient>
+            </defs>
+
+            <!-- Gently Fluttering Patitapabana Bana Flag -->
+            <g class="patitapabana-flag">
+              <path
+                d="M200 41 C224 37 248 52 288 45 C270 53 266 57 278 63 C244 65 222 53 200 56 Z"
+                fill="url(#flagCrimsonGold)"
+                opacity="0.95"
+              />
+              <path d="M200 41 C224 37 248 52 288 45" stroke="#FFF4BE" stroke-width="1" fill="none" />
+              <circle cx="222" cy="49" r="2.2" fill="#FFF4BE" />
+            </g>
+
+            <!-- Sacred Neelachakra Atop Shreemandira -->
+            <g stroke="url(#templeGoldGrad)" stroke-width="1.6">
+              <line x1="200" y1="16" x2="200" y2="62" />
+              <circle cx="200" cy="31" r="11" fill="rgba(245,220,135,0.16)" />
+              <circle cx="200" cy="31" r="4.5" />
+              <line x1="189" y1="31" x2="211" y2="31" />
+              <line x1="192" y1="23" x2="208" y2="39" />
+              <line x1="208" y1="23" x2="192" y2="39" />
+            </g>
+
+            <!-- Kalasha & Amalaka Crown -->
+            <path d="M192 61 Q200 52 208 61 Z" fill="url(#templeGoldGrad)" />
+            <rect x="180" y="62" width="40" height="8" rx="4" fill="url(#templeGoldGrad)" />
+            <rect x="186" y="70" width="28" height="5" rx="2" fill="url(#templeGoldGrad)" opacity="0.85" />
+
+            <!-- Main Curvilinear Kalinga Rekha Deula Sanctum Tower -->
+            <path
+              d="M178 75 C164 105 154 148 150 205 L150 264 L250 264 L250 205 C246 148 236 105 222 75 Z"
+              fill="url(#templeFill)"
+              stroke="url(#templeGoldGrad)"
+              stroke-width="2"
+            />
+            <path d="M188 76 C178 112 172 156 170 264" stroke="url(#templeGoldGrad)" stroke-width="1" opacity="0.7" />
+            <path d="M212 76 C222 112 228 156 230 264" stroke="url(#templeGoldGrad)" stroke-width="1" opacity="0.7" />
+            <path d="M200 76 L200 205" stroke="url(#templeGoldGrad)" stroke-width="0.9" opacity="0.55" />
+
+            <!-- Horizontal Bhumi Carvings -->
+            <g stroke="url(#templeGoldGrad)" stroke-width="1" opacity="0.65">
+              <line x1="173" y1="92" x2="227" y2="92" />
+              <line x1="168" y1="108" x2="232" y2="108" />
+              <line x1="163" y1="125" x2="237" y2="125" />
+              <line x1="159" y1="143" x2="241" y2="143" />
+              <line x1="155" y1="162" x2="245" y2="162" />
+              <line x1="152" y1="182" x2="248" y2="182" />
+              <line x1="150" y1="202" x2="250" y2="202" />
+            </g>
+
+            <!-- Sub-spires (Angashikhara) -->
+            <path d="M150 180 C138 195 134 222 132 264 L150 264 Z" fill="url(#templeFill)" stroke="url(#templeGoldGrad)" stroke-width="1.3" />
+            <path d="M250 180 C262 195 266 222 268 264 L250 264 Z" fill="url(#templeFill)" stroke="url(#templeGoldGrad)" stroke-width="1.3" />
+
+            <!-- Jagamohana & Natamandapa Stepped Pidha Roofs -->
+            <g stroke="url(#templeGoldGrad)" stroke-width="1.5" fill="url(#templeFill)">
+              <polygon points="84,185 136,185 128,172 92,172" />
+              <polygon points="75,200 144,200 135,185 84,185" />
+              <polygon points="68,215 148,215 142,200 75,200" />
+              <rect x="74" y="215" width="70" height="49" />
+              <path d="M106 172 L110 158 L114 172 Z" fill="url(#templeGoldGrad)" />
+            </g>
+            <g stroke="url(#templeGoldGrad)" stroke-width="1.5" fill="url(#templeFill)">
+              <polygon points="264,185 316,185 308,172 272,172" />
+              <polygon points="256,200 325,200 316,185 264,185" />
+              <polygon points="252,215 332,215 325,200 256,200" />
+              <rect x="256" y="215" width="70" height="49" />
+              <path d="M286 172 L290 158 L294 172 Z" fill="url(#templeGoldGrad)" />
+            </g>
+
+            <!-- Aruna Stambha & Lamp Pillar -->
+            <g stroke="url(#templeGoldGrad)" stroke-width="1.3">
+              <line x1="42" y1="196" x2="42" y2="264" />
+              <circle cx="42" cy="192" r="3" fill="url(#templeGoldGrad)" />
+              <rect x="36" y="256" width="12" height="8" fill="url(#templeFill)" />
+              <line x1="358" y1="196" x2="358" y2="264" />
+              <circle cx="358" cy="192" r="3" fill="url(#templeGoldGrad)" />
+              <rect x="352" y="256" width="12" height="8" fill="url(#templeFill)" />
+            </g>
+
+            <!-- Singhadwara Arch & Warm Inner Diya Glow -->
+            <path d="M182 264 L182 232 C182 216 218 216 218 232 L218 264 Z" fill="rgba(245,220,135,0.22)" stroke="url(#templeGoldGrad)" stroke-width="1.8" />
+            <ellipse cx="200" cy="248" rx="9" ry="12" fill="#FFF3B0" opacity="0.48" />
+
+            <!-- Plinth Steps -->
+            <line x1="20" y1="264" x2="380" y2="264" stroke="url(#templeGoldGrad)" stroke-width="2.2" />
+            <line x1="48" y1="271" x2="352" y2="271" stroke="url(#templeGoldGrad)" stroke-width="1.2" opacity="0.7" />
+            <line x1="95" y1="277" x2="305" y2="277" stroke="url(#templeGoldGrad)" stroke-width="0.9" opacity="0.45" />
+          </svg>
+        </div>
+
+        <!-- Shimmering Metallic Gold Couple Display Title -->
+        <div class="hero-parallax-layer relative z-10 mt-3 space-y-1.5" data-depth="18">
+          <p class="text-[11px] uppercase tracking-[0.34em] text-temple-gold">Save the Dates · Subha Bibaha</p>
+          <h1 class="font-display text-4xl sm:text-6xl font-bold tracking-wider gold-foil-text leading-tight">
+            Real &amp; Sujit
+          </h1>
+          <p class="font-serif italic text-base sm:text-lg text-parchment-cream/85 tracking-wide">
+            13 Dec 2026 &nbsp;•&nbsp; 27 Feb – 3 Mar 2027
+          </p>
+        </div>
+      </div>
+
+      <!-- Scroll Down Cue -->
+      <a
+        href="#family-section"
+        aria-label="Scroll to Family Blessings and Portrait"
+        class="group mt-3 flex flex-col items-center gap-1.5 text-[11px] uppercase tracking-[0.26em] text-temple-light/85 transition hover:text-temple-pale"
+      >
+        <span>Scroll to Explore</span>
+        <span class="flex h-9 w-5 items-start justify-center rounded-full border border-temple-gold/55 p-1">
+          <span class="h-2 w-1 rounded-full bg-temple-light animate-bounce"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- =======================================================================
+         SECTION 2: FAMILY BLESSINGS, SAVE THE DATE NOTE & 3D COUPLE PORTRAIT
+         ======================================================================= -->
+    <section
+      id="family-section"
+      data-mood="couple"
+      data-chapter="Family Blessings & Portrait"
+      class="relative mx-auto max-w-4xl px-4 py-14 sm:py-20 text-center space-y-12"
+    >
+      <!-- Dignified Family Hierarchy & Save the Date Note Card -->
+      <div class="reveal-on-scroll relative rounded-3xl bg-kalinga-deep/68 p-6 sm:p-11 gold-border-glow backdrop-blur-md">
+        <!-- Corner Jhoti Ornaments -->
+        <svg class="pointer-events-none absolute top-3 left-3 w-12 h-12 text-temple-gold/32" viewBox="0 0 80 80" fill="none">
+          <path d="M6 6 C25 8 36 18 39 36 C22 34 9 23 6 6 Z" stroke="currentColor" stroke-width="1.3" />
+          <circle cx="19" cy="19" r="2.2" fill="currentColor" />
+        </svg>
+        <svg class="pointer-events-none absolute top-3 right-3 w-12 h-12 text-temple-gold/32 -scale-x-100" viewBox="0 0 80 80" fill="none">
+          <path d="M6 6 C25 8 36 18 39 36 C22 34 9 23 6 6 Z" stroke="currentColor" stroke-width="1.3" />
+          <circle cx="19" cy="19" r="2.2" fill="currentColor" />
+        </svg>
+
+        <p class="font-odia text-base sm:text-lg text-temple-light/95">॥ ଜୟ ଜଗନ୍ନାଥ ॥</p>
+        <p class="mt-1.5 font-serif italic text-lg sm:text-xl text-temple-pale/95">
+          With the blessings of Lord Jagannath &amp; our beloved parents
+        </p>
+
+        <!-- Bride & Groom Family Hierarchy -->
+        <div class="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-7">
+          <div class="rounded-2xl border border-temple-gold/30 bg-kalinga-maroon/45 px-5 py-6 shadow-inner">
+            <p class="text-[10px] font-semibold uppercase tracking-[0.28em] text-temple-gold">Bride</p>
+            <h2 class="mt-2 font-display text-2xl sm:text-3xl font-bold gold-foil-text">
+              Real Chhatoi
+            </h2>
+            <div class="mx-auto my-3 h-[1px] w-20 bg-gradient-to-r from-transparent via-temple-gold/70 to-transparent"></div>
+            <p class="font-serif italic text-sm sm:text-base text-parchment-cream/80">Daughter of</p>
+            <p class="mt-1 font-serif text-lg sm:text-xl font-semibold text-parchment-ivory leading-snug">
+              Sri Jaydev Chhatoi<br />&amp; Smt. Sandhyarani Chhatoi
+            </p>
+          </div>
+
+          <div class="rounded-2xl border border-temple-gold/30 bg-kalinga-maroon/45 px-5 py-6 shadow-inner">
+            <p class="text-[10px] font-semibold uppercase tracking-[0.28em] text-temple-gold">Groom</p>
+            <h2 class="mt-2 font-display text-2xl sm:text-3xl font-bold gold-foil-text">
+              Sujit Subham Das
+            </h2>
+            <div class="mx-auto my-3 h-[1px] w-20 bg-gradient-to-r from-transparent via-temple-gold/70 to-transparent"></div>
+            <p class="font-serif italic text-sm sm:text-base text-parchment-cream/80">Son of</p>
+            <p class="mt-1 font-serif text-lg sm:text-xl font-semibold text-parchment-ivory leading-snug">
+              Sri Suryamani Das<br />&amp; Smt. Sabita Das
+            </p>
+          </div>
+        </div>
+
+        <!-- Warm Personal Save the Date Note -->
+        <div class="mx-auto mt-8 max-w-2xl rounded-2xl border border-temple-gold/32 bg-gradient-to-b from-parchment-ivory/[0.08] to-kalinga-maroon/35 px-5 py-6 sm:px-8">
+          <p class="text-[10px] font-semibold uppercase tracking-[0.26em] text-temple-light mb-2.5">
+            Save the Dates — A Note From Us
+          </p>
+          <blockquote class="font-serif italic text-lg sm:text-xl leading-relaxed text-parchment-ivory/95">
+            “Hey Guys! A little advance notice — it’s wedding time! Please block these dates in your calendar. Your presence means the world to us, and we genuinely want all of you to be part of these celebrations. <span class="not-italic font-semibold text-temple-light">No excuses, guys!</span>”
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- =====================================================================
+           3D ROYAL COUPLE PORTRAIT ARCH FRAME (WITH GRACEFUL OG PHOTO SUPPORT)
+           ===================================================================== -->
+      <div class="reveal-on-scroll flex flex-col items-center">
+        <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-temple-gold mb-5">
+          The Royal Union
+        </p>
+
+        <div class="tilt-3d-wrapper w-full max-w-[330px] sm:max-w-[370px]">
+          <div id="couple-portrait-card" class="tilt-3d-surface royal-arch-frame relative">
+            <!-- Ornate Top Crest Jewel -->
+            <div class="pointer-events-none absolute -top-3.5 left-1/2 z-30 -translate-x-1/2 flex h-7 w-7 items-center justify-center rounded-full border border-temple-pale bg-kalinga-maroon shadow-lg">
+              <span class="h-2.5 w-2.5 rotate-45 bg-gradient-to-br from-temple-pale to-temple-gold"></span>
+            </div>
+
+            <div class="royal-arch-inner relative overflow-hidden aspect-[3/4] w-full flex flex-col items-center justify-center">
+              <!-- Live Couple Portrait Image (auto-tries ./og-image.jpg on hosted site) -->
+              <img
+                id="couple-portrait-img"
+                src="./og-image.jpg"
+                alt="Real Chhatoi and Sujit Subham Das"
+                class="h-full w-full object-cover object-top transition-opacity duration-700"
+              />
+
+              <!-- Subtle Vignette + Caption Overlay when Photo is Displayed -->
+              <div
+                id="portrait-photo-overlay"
+                class="pointer-events-none absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-kalinga-deep/95 via-kalinga-deep/55 to-transparent px-5 pt-16 pb-5 text-center"
+              >
+                <p class="font-display text-xl sm:text-2xl font-bold gold-foil-text tracking-wider">
+                  Real &amp; Sujit
+                </p>
+                <p class="font-serif italic text-xs sm:text-sm tracking-[0.22em] text-temple-pale/90 uppercase mt-0.5">
+                  Together Forever
+                </p>
+              </div>
+
+              <!-- Luxurious Fallback Monogrammed Portrait Frame (Shown if ./og-image.jpg isn't present in preview) -->
+              <div
+                id="portrait-fallback"
+                class="hidden relative z-10 h-full w-full flex-col items-center justify-center px-6 py-10 text-center"
+              >
+                <!-- Delicate Arch Inner Filigree Border -->
+                <div class="pointer-events-none absolute inset-3 rounded-t-full rounded-b-2xl border border-temple-gold/35"></div>
+                <div class="pointer-events-none absolute inset-5 rounded-t-full rounded-b-xl border border-dashed border-temple-gold/25"></div>
+
+                <!-- Ornamental Lotus & Interlocking Rings SVG -->
+                <svg class="w-20 h-20 text-temple-gold/85 mb-4 drop-shadow-[0_4px_14px_rgba(212,175,55,0.3)]" viewBox="0 0 100 100" fill="none">
+                  <circle cx="50" cy="50" r="44" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4" opacity="0.65" />
+                  <circle cx="40" cy="52" r="18" stroke="currentColor" stroke-width="2.2" />
+                  <circle cx="60" cy="52" r="18" stroke="currentColor" stroke-width="2.2" />
+                  <polygon points="50,24 54,31 50,36 46,31" fill="#F5DC87" />
+                  <path d="M36 78 Q50 86 64 78" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+                </svg>
+
+                <p class="font-odia text-sm text-temple-light/90 mb-1">॥ ଶୁଭ ବିବାହ ॥</p>
+                <h3 class="font-display text-3xl sm:text-4xl font-bold gold-foil-text leading-tight">
+                  Real &amp; Sujit
+                </h3>
+                <div class="my-3 flex items-center gap-3 w-36">
+                  <span class="h-[1px] flex-1 bg-gradient-to-r from-transparent to-temple-gold"></span>
+                  <span class="text-temple-light text-xs">✦</span>
+                  <span class="h-[1px] flex-1 bg-gradient-to-l from-transparent to-temple-gold"></span>
+                </div>
+                <p class="font-serif italic text-base sm:text-lg tracking-[0.18em] text-temple-pale/90">
+                  Together Forever
+                </p>
+                <p class="mt-2 text-[11px] text-parchment-cream/60 max-w-[210px] leading-relaxed">
+                  Automatically loads <code class="text-temple-light">og-image.jpg</code> once hosted alongside this file.
+                </p>
+
+                <!-- Discreet Interactive Photo Preview Trigger -->
+                <label
+                  for="local-photo-input"
+                  class="mt-5 inline-flex cursor-pointer items-center gap-2 rounded-full border border-temple-gold/60 bg-kalinga-deep/85 px-4 py-2 text-[11px] font-medium uppercase tracking-[0.16em] text-temple-light shadow-lg transition hover:border-temple-light hover:bg-kalinga-crimson/90 active:scale-95"
+                >
+                  <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.9">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  <span>Preview Your Photo Here</span>
+                </label>
+              </div>
+
+              <!-- Subtle "Change Photo" Pill when a photo is active -->
+              <label
+                id="change-photo-pill"
+                for="local-photo-input"
+                title="Preview a different photo in this 3D frame"
+                class="hidden absolute top-4 right-4 z-30 cursor-pointer items-center gap-1.5 rounded-full border border-temple-gold/50 bg-kalinga-deep/75 px-3 py-1.5 text-[10px] font-medium uppercase tracking-wider text-temple-light backdrop-blur-md transition hover:bg-kalinga-crimson/90 active:scale-95"
+              >
+                <span>Change Photo</span>
+              </label>
+
+              <input id="local-photo-input" type="file" accept="image/*" class="sr-only" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =====================================================================
+           DUAL LIVE COUNTDOWN TIMER (ENGAGEMENT & SUBHA BIBAHA)
+           ===================================================================== -->
+      <div class="reveal-on-scroll rounded-3xl bg-kalinga-deep/68 p-6 sm:p-10 gold-border-glow backdrop-blur-md">
+        <p class="text-[11px] font-semibold uppercase tracking-[0.28em] text-temple-gold mb-4">
+          Live Countdown to Our Celebrations
+        </p>
+
+        <!-- Toggle Tabs -->
+        <div
+          role="tablist"
+          aria-label="Choose countdown ceremony"
+          class="mx-auto mb-5 inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-temple-gold/38 bg-kalinga-deep/85 p-1.5"
+        >
+          <button
+            id="cd-tab-engagement"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            data-target="engagement"
+            class="cd-toggle-btn rounded-full bg-gradient-to-r from-[#A57A1F] via-[#E5C158] to-[#B48420] px-4 sm:px-5 py-2.5 text-[11px] sm:text-xs font-bold uppercase tracking-wider text-kalinga-deep shadow-md transition active:scale-95"
+          >
+            Engagement · 13 Dec 2026
+          </button>
+          <button
+            id="cd-tab-wedding"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            data-target="wedding"
+            class="cd-toggle-btn rounded-full px-4 sm:px-5 py-2.5 text-[11px] sm:text-xs font-semibold uppercase tracking-wider text-parchment-cream/80 transition hover:text-temple-pale active:scale-95"
+          >
+            Subha Bibaha · 28 Feb 2027
+          </button>
+        </div>
+
+        <p id="cd-subtitle" class="mb-5 font-serif italic text-sm sm:text-base text-temple-pale/90">
+          Counting down to our Engagement at Grand Residency Hotel
+        </p>
+
+        <div id="countdown-grid" class="mx-auto grid max-w-lg grid-cols-4 gap-2.5 sm:gap-4">
+          <div class="rounded-2xl border border-temple-gold/38 bg-kalinga-maroon/45 px-2 py-3.5 sm:py-4 backdrop-blur-md shadow-inner">
+            <div id="cd-days" class="font-display text-2xl sm:text-4xl font-bold gold-foil-text">00</div>
+            <div class="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.2em] text-parchment-cream/75">Days</div>
+          </div>
+          <div class="rounded-2xl border border-temple-gold/38 bg-kalinga-maroon/45 px-2 py-3.5 sm:py-4 backdrop-blur-md shadow-inner">
+            <div id="cd-hours" class="font-display text-2xl sm:text-4xl font-bold gold-foil-text">00</div>
+            <div class="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.2em] text-parchment-cream/75">Hours</div>
+          </div>
+          <div class="rounded-2xl border border-temple-gold/38 bg-kalinga-maroon/45 px-2 py-3.5 sm:py-4 backdrop-blur-md shadow-inner">
+            <div id="cd-mins" class="font-display text-2xl sm:text-4xl font-bold gold-foil-text">00</div>
+            <div class="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.2em] text-parchment-cream/75">Mins</div>
+          </div>
+          <div class="rounded-2xl border border-temple-gold/38 bg-kalinga-maroon/45 px-2 py-3.5 sm:py-4 backdrop-blur-md shadow-inner">
+            <div id="cd-secs" class="font-display text-2xl sm:text-4xl font-bold gold-foil-text">00</div>
+            <div class="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.2em] text-parchment-cream/75">Secs</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION 3: SCROLLYTELLING 5-CEREMONY ITINERARY (DYNAMIC MOOD SHIFTS)
+         ======================================================================= -->
+    <section id="events-section" class="relative mx-auto max-w-4xl px-4 py-10 sm:py-16">
+      <div class="reveal-on-scroll mb-12 sm:mb-16 text-center">
+        <p class="text-xs uppercase tracking-[0.3em] text-temple-gold">Five Chapters of Celebration</p>
+        <h2 class="mt-2 font-display text-3xl sm:text-5xl font-bold gold-foil-text">
+          Wedding Celebrations
+        </h2>
+        <p class="mx-auto mt-3 max-w-lg font-serif italic text-base sm:text-lg text-parchment-cream/85">
+          As you scroll through each celebration, watch the royal ambiance and floating particles transform with every chapter.
+        </p>
+      </div>
+
+      <!-- 5 Interactive 3D Ceremony Cards Container -->
+      <div id="events-container" class="space-y-10 sm:space-y-14"></div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION 4: FULLY WIRED WHATSAPP RSVP (+91 88478 95107)
+         ======================================================================= -->
+    <section
+      id="rsvp-section"
+      data-mood="reception"
+      data-chapter="RSVP & Blessings"
+      class="relative mx-auto max-w-2xl px-4 pt-12 pb-16 sm:pt-20 sm:pb-24"
+    >
+      <div class="reveal-on-scroll relative overflow-hidden rounded-3xl bg-kalinga-deep/80 p-6 sm:p-10 gold-border-glow backdrop-blur-md">
+        <svg class="pointer-events-none absolute top-3 right-3 w-14 h-14 text-temple-gold/25 -scale-x-100" viewBox="0 0 100 100" fill="none">
+          <path d="M8 8 C28 10 42 22 46 42 C28 40 12 28 8 8 Z" stroke="currentColor" stroke-width="1.5" />
+          <circle cx="24" cy="24" r="3" fill="currentColor" />
+        </svg>
+
+        <div class="text-center mb-8">
+          <p class="text-xs uppercase tracking-[0.28em] text-temple-gold">Kindly Respond</p>
+          <h2 class="mt-2 font-display text-3xl sm:text-4xl font-bold gold-foil-text">
+            RSVP &amp; Blessings
+          </h2>
+          <p class="mt-2 font-serif italic text-base sm:text-lg text-parchment-cream/85">
+            Confirm your presence directly to us on WhatsApp and send your warm wishes for Real &amp; Sujit.
+          </p>
+        </div>
+
+        <!-- Inline Validation Banner -->
+        <div id="rsvp-error-box" class="hidden mb-5 rounded-xl border border-red-400/50 bg-red-950/75 px-4 py-3 text-xs sm:text-sm text-red-100">
+          Please enter your name so we can reserve your warm welcome.
+        </div>
+
+        <!-- Interactive RSVP Form -->
+        <form id="rsvp-form" class="space-y-6" novalidate>
+          <div>
+            <label for="guest-name" class="block text-xs font-medium uppercase tracking-[0.2em] text-temple-light mb-2">
+              Guest Name *
+            </label>
+            <input
+              id="guest-name"
+              name="guestName"
+              type="text"
+              required
+              placeholder="e.g., Rahul &amp; Priya Mohanty"
+              class="w-full rounded-xl border border-temple-gold/38 bg-kalinga-maroon/55 px-4 py-3.5 text-sm sm:text-base text-parchment-ivory placeholder-parchment-cream/40 focus:border-temple-light focus:outline-none focus:ring-2 focus:ring-temple-gold/30 transition"
+            />
+          </div>
+
+          <!-- Attending Toggle -->
+          <div>
+            <span class="block text-xs font-medium uppercase tracking-[0.2em] text-temple-light mb-2">
+              Attendance
+            </span>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <button
+                type="button"
+                data-attend="yes"
+                class="attend-toggle-btn flex items-center justify-center gap-2 rounded-xl border border-temple-light bg-temple-gold/25 px-4 py-3.5 text-sm font-semibold text-temple-pale shadow-md transition active:scale-[0.98]"
+              >
+                <span>✨ Joyfully Accepts</span>
+              </button>
+              <button
+                type="button"
+                data-attend="no"
+                class="attend-toggle-btn flex items-center justify-center gap-2 rounded-xl border border-temple-gold/30 bg-kalinga-maroon/40 px-4 py-3.5 text-sm font-medium text-parchment-cream/75 transition hover:border-temple-gold/60 active:scale-[0.98]"
+              >
+                <span>🙏 Regretfully Declines</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Guest Count Stepper (1-10) & Ceremony Multi-Select Pills -->
+          <div id="attending-details" class="space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 rounded-2xl border border-temple-gold/28 bg-kalinga-maroon/40 px-4 py-3.5">
+              <div>
+                <p class="text-xs font-medium uppercase tracking-[0.18em] text-temple-light">Number of Guests</p>
+                <p class="text-xs text-parchment-cream/65">Select between 1 and 10 guests</p>
+              </div>
+              <div class="flex items-center gap-3 self-start sm:self-auto">
+                <button
+                  type="button"
+                  id="guest-minus"
+                  aria-label="Decrease guest count"
+                  class="flex h-10 w-10 items-center justify-center rounded-full border border-temple-gold/55 bg-kalinga-deep/85 text-lg font-bold text-temple-light transition hover:bg-temple-gold hover:text-kalinga-deep active:scale-95"
+                >−</button>
+                <span id="guest-count-display" class="w-8 text-center font-display text-xl font-bold text-parchment-ivory">2</span>
+                <button
+                  type="button"
+                  id="guest-plus"
+                  aria-label="Increase guest count"
+                  class="flex h-10 w-10 items-center justify-center rounded-full border border-temple-gold/55 bg-kalinga-deep/85 text-lg font-bold text-temple-light transition hover:bg-temple-gold hover:text-kalinga-deep active:scale-95"
+                >+</button>
+              </div>
+            </div>
+
+            <div>
+              <span class="block text-xs font-medium uppercase tracking-[0.2em] text-temple-light mb-2.5">
+                Ceremonies Attending
+              </span>
+              <div id="rsvp-events-pills" class="flex flex-wrap gap-2.5">
+                <button type="button" data-event="Engagement" class="event-pill active rounded-full border border-temple-light bg-temple-gold/25 px-4 py-2 text-xs sm:text-sm font-medium text-temple-pale transition">
+                  ✓ Engagement
+                </button>
+                <button type="button" data-event="Haldi & Mehendi" class="event-pill active rounded-full border border-temple-light bg-temple-gold/25 px-4 py-2 text-xs sm:text-sm font-medium text-temple-pale transition">
+                  ✓ Haldi &amp; Mehendi
+                </button>
+                <button type="button" data-event="Sangeet" class="event-pill active rounded-full border border-temple-light bg-temple-gold/25 px-4 py-2 text-xs sm:text-sm font-medium text-temple-pale transition">
+                  ✓ Sangeet
+                </button>
+                <button type="button" data-event="Wedding" class="event-pill active rounded-full border border-temple-light bg-temple-gold/25 px-4 py-2 text-xs sm:text-sm font-medium text-temple-pale transition">
+                  ✓ Wedding
+                </button>
+                <button type="button" data-event="Reception" class="event-pill active rounded-full border border-temple-light bg-temple-gold/25 px-4 py-2 text-xs sm:text-sm font-medium text-temple-pale transition">
+                  ✓ Reception
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Optional Blessings/Note -->
+          <div>
+            <label for="blessing-msg" class="block text-xs font-medium uppercase tracking-[0.2em] text-temple-light mb-2">
+              Blessings / Note for Real &amp; Sujit (Optional)
+            </label>
+            <textarea
+              id="blessing-msg"
+              rows="3"
+              placeholder="Write a warm blessing or message for the couple..."
+              class="w-full rounded-xl border border-temple-gold/38 bg-kalinga-maroon/55 px-4 py-3 text-sm sm:text-base text-parchment-ivory placeholder-parchment-cream/40 focus:border-temple-light focus:outline-none focus:ring-2 focus:ring-temple-gold/30 transition resize-none"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="w-full rounded-xl bg-gradient-to-r from-[#A57A1F] via-[#E5C158] to-[#B48420] px-6 py-4 text-sm font-bold uppercase tracking-[0.2em] text-kalinga-deep shadow-[0_10px_30px_rgba(212,175,55,0.38)] transition hover:brightness-110 active:scale-[0.98]"
+          >
+            Confirm RSVP on WhatsApp
+          </button>
+        </form>
+
+        <!-- Post-Submit Warm Confirmation Banner & Backup WhatsApp Button -->
+        <div id="rsvp-confirmation" class="hidden text-center py-4 space-y-5">
+          <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full border border-temple-light bg-temple-gold/20 text-3xl shadow-[0_0_25px_rgba(212,175,55,0.38)]">
+            🪷
+          </div>
+          <div class="space-y-2">
+            <p class="font-odia text-base text-temple-light">॥ ଜୟ ଜଗନ୍ନାଥ ॥</p>
+            <h3 id="confirm-heading" class="font-display text-2xl sm:text-3xl font-bold gold-foil-text">
+              Thank You!
+            </h3>
+            <p id="confirm-summary" class="mx-auto max-w-md font-serif text-base sm:text-lg text-parchment-cream/90 leading-relaxed"></p>
+            <p class="text-xs text-parchment-cream/65">
+              If WhatsApp did not open automatically, tap the button below to send your pre-filled RSVP directly to <span class="text-temple-light font-medium">+91 88478 95107</span>.
+            </p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+            <a
+              id="whatsapp-share-btn"
+              href="https://wa.me/918847895107"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex w-full sm:w-auto items-center justify-center gap-2.5 rounded-xl bg-[#25D366]/95 px-6 py-3.5 text-xs sm:text-sm font-bold uppercase tracking-wider text-[#052912] shadow-lg transition hover:bg-[#25D366] active:scale-95"
+            >
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.391c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.828 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.031-1.312-5-4.375-5.156-4.578-.156-.203-1.234-1.641-1.234-3.125s.781-2.219 1.062-2.516c.281-.297.609-.375.812-.375s.406.016.578.016c.188 0 .438-.078.688.531.25.609.859 2.094.938 2.25.078.156.125.344.031.547-.094.203-.141.328-.297.5-.156.172-.312.391-.453.516-.141.141-.297.297-.125.594.172.297.766 1.266 1.656 2.047 1.141 1.016 2.094 1.328 2.391 1.484.297.156.469.125.641-.078.172-.203.734-.859.938-1.156.203-.297.391-.25.656-.156.266.094 1.703.797 2 .953.297.156.484.219.562.344.078.125.078.734-.172 1.438z"/>
+              </svg>
+              <span>Open WhatsApp Confirmation</span>
+            </a>
+            <button
+              type="button"
+              id="edit-rsvp-btn"
+              class="inline-flex w-full sm:w-auto items-center justify-center rounded-xl border border-temple-gold/48 bg-kalinga-maroon/65 px-5 py-3.5 text-xs font-semibold uppercase tracking-widest text-temple-light transition hover:bg-kalinga-maroon active:scale-95"
+            >
+              Edit Response
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECTION 5: ROYAL FOOTER WITH DIRECT WHATSAPP HOST CONTACT & REPLAY
+         ======================================================================= -->
+    <footer class="relative border-t border-temple-gold/28 bg-kalinga-deep/85 px-4 py-12 text-center backdrop-blur-md">
+      <div class="mx-auto max-w-xl space-y-5">
+        <p class="font-odia text-xl text-temple-light">॥ ଶୁଭମସ୍ତୁ — ଜୟ ଜଗନ୍ନାଥ ॥</p>
+
+        <!-- Direct WhatsApp Host Contact Button -->
+        <div class="pt-1">
+          <a
+            href="https://wa.me/918847895107"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-2.5 rounded-full border border-[#25D366]/55 bg-[#25D366]/15 px-5 py-3 text-xs sm:text-sm font-medium text-[#B7F7CC] shadow-lg transition hover:bg-[#25D366]/25 hover:border-[#25D366] active:scale-95"
+          >
+            <svg class="w-4 h-4 shrink-0 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.391c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.828 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.031-1.312-5-4.375-5.156-4.578-.156-.203-1.234-1.641-1.234-3.125s.781-2.219 1.062-2.516c.281-.297.609-.375.812-.375s.406.016.578.016c.188 0 .438-.078.688.531.25.609.859 2.094.938 2.25.078.156.125.344.031.547-.094.203-.141.328-.297.5-.156.172-.312.391-.453.516-.141.141-.297.297-.125.594.172.297.766 1.266 1.656 2.047 1.141 1.016 2.094 1.328 2.391 1.484.297.156.469.125.641-.078.172-.203.734-.859.938-1.156.203-.297.391-.25.656-.156.266.094 1.703.797 2 .953.297.156.484.219.562.344.078.125.078.734-.172 1.438z"/>
+            </svg>
+            <span>Questions? Message on WhatsApp • +91 88478 95107</span>
+          </a>
+        </div>
+
+        <!-- Replay 3D Opening Button -->
+        <div>
+          <button
+            id="replay-opening-btn"
+            type="button"
+            class="inline-flex items-center gap-2.5 rounded-full border border-temple-gold/55 bg-kalinga-maroon/75 px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-temple-light shadow-lg transition hover:border-temple-light hover:bg-kalinga-crimson active:scale-95"
+          >
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            <span>Replay 3D Opening</span>
+          </button>
+        </div>
+
+        <div class="pt-3 border-t border-temple-gold/15">
+          <p class="font-display text-lg sm:text-xl tracking-[0.2em] gold-foil-text uppercase">
+            Jay Jagannath • Real &amp; Sujit
+          </p>
+          <p class="mt-1 font-serif italic text-sm text-parchment-cream/70">
+            With warm regards from the Chhatoi &amp; Das Families
+          </p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- =========================================================================
+       INTERACTIVE 3D ENGINE, MULTI-STAGE AUDIO, PARTICLE CANVAS & UTILITIES
+       ========================================================================= -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* Hardcoded Host WhatsApp Number (+91 88478 95107) */
+      const HOST_WHATSAPP_NUMBER = '918847895107';
+
+      /* =======================================================================
+         1. FIVE WEDDING CEREMONIES (EXACT DATES, VENUES, MAPS & ATTIRE)
+         ======================================================================= */
+      const WEDDING_EVENTS = [
+        {
+          id: 'engagement',
+          mood: 'engagement',
+          icon: '💍',
+          chapter: 'Chapter I · Engagement',
+          dayLabel: 'Chapter I · 13 Dec 2026',
+          title: 'Engagement',
+          subtitle: 'Nirbandha & Ring Ceremony',
+          dateText: 'Sunday, 13th December 2026',
+          timeText: 'Time: To be announced',
+          venueName: 'Grand Residency Hotel',
+          mapUrl: 'https://share.google/RdysM8oaDJAfxRWy0',
+          description: 'An intimate royal maroon-and-gold evening as both families formally bless the sacred Nirbandha and exchange of rings.',
+          featured: false,
+          swatches: [
+            { name: 'Wine', hex: '#6B1226' },
+            { name: 'Champagne Gold', hex: '#E6C98B' },
+            { name: 'Ivory', hex: '#FAF3E0' }
+          ],
+          ics: {
+            startDate: '20261213',
+            endDate: '20261214',
+            summary: 'Real & Sujit — Engagement Ceremony'
+          }
+        },
+        {
+          id: 'haldi-mehendi',
+          mood: 'haldi',
+          icon: '🌼',
+          chapter: 'Chapter II · Haldi & Mehendi',
+          dayLabel: 'Chapter II · Daytime',
+          title: 'Haldi & Mehendi',
+          subtitle: 'Haladi, Mangala Snana & Henna',
+          dateText: 'Saturday, 27th February 2027',
+          timeText: 'Time: To be announced',
+          venueName: 'The Destiny Convention',
+          mapUrl: 'https://share.google/6LODyumyN0N90bcZ2',
+          description: 'Sunlit turmeric laughter, fragrant emerald henna art, Odia folk melodies, and drifting showers of fresh marigold petals.',
+          featured: false,
+          swatches: [
+            { name: 'Marigold', hex: '#F59E0B' },
+            { name: 'Mustard', hex: '#CA8A04' },
+            { name: 'Emerald', hex: '#047857' }
+          ],
+          ics: {
+            startDate: '20270227',
+            endDate: '20270228',
+            summary: 'Real & Sujit — Haldi & Mehendi'
+          }
+        },
+        {
+          id: 'sangeet',
+          mood: 'sangeet',
+          icon: '✨',
+          chapter: 'Chapter III · Sangeet',
+          dayLabel: 'Chapter III · Evening',
+          title: 'Sangeet',
+          subtitle: 'Sangeet Sandhya',
+          dateText: 'Saturday, 27th February 2027 (Evening)',
+          timeText: 'Time: To be announced',
+          venueName: 'The Destiny Convention',
+          mapUrl: 'https://share.google/6LODyumyN0N90bcZ2',
+          description: 'Step into deep indigo twilight and twinkling rose-gold bokeh lights for a dazzling evening of music, dance, and joy.',
+          featured: false,
+          swatches: [
+            { name: 'Midnight Blue', hex: '#1E1B4B' },
+            { name: 'Sequin Black', hex: '#18181B' },
+            { name: 'Silver', hex: '#CBD5E1' }
+          ],
+          ics: {
+            startDate: '20270227',
+            endDate: '20270228',
+            summary: 'Real & Sujit — Sangeet Evening'
+          }
+        },
+        {
+          id: 'wedding',
+          mood: 'wedding',
+          icon: '🪔',
+          chapter: 'Chapter IV · Subha Bibaha',
+          dayLabel: 'Chapter IV · The Wedding',
+          title: 'Subha Bibaha (Wedding)',
+          subtitle: 'Vedic Pheras & Hasta Ganthi',
+          dateText: 'Sunday, 28th February 2027',
+          timeText: 'Time: Subha Muhurat TBA',
+          venueName: 'CMC Kalyani Mandap',
+          mapUrl: 'https://share.google/rtKJfyAkyPQL4v3Y1',
+          description: 'Amid sacred Vedic mantras, Hulahuli & Sankha, and glowing temple diyas, bless Real & Sujit as they unite for eternity.',
+          featured: true,
+          swatches: [
+            { name: 'Crimson Red', hex: '#B91C1C' },
+            { name: 'Sambalpuri Silk', hex: '#881337' },
+            { name: 'Antique Gold', hex: '#D4AF37' }
+          ],
+          ics: {
+            startDate: '20270228',
+            endDate: '20270301',
+            summary: 'Real & Sujit — Subha Bibaha (Wedding)'
+          }
+        },
+        {
+          id: 'reception',
+          mood: 'reception',
+          icon: '🥂',
+          chapter: 'Chapter V · Reception',
+          dayLabel: 'Chapter V · Grand Gala',
+          title: 'Reception',
+          subtitle: 'Grand Starlit Reception',
+          dateText: 'Wednesday, 3rd March 2027',
+          timeText: 'Time: To be announced',
+          venueName: 'The Destiny Convention',
+          mapUrl: 'https://share.google/6LODyumyN0N90bcZ2',
+          description: 'Celebrate the newlyweds beneath starry midnight skies with champagne toasts, royal Odia delicacies, and timeless elegance.',
+          featured: false,
+          swatches: [
+            { name: 'Champagne', hex: '#F3E5AB' },
+            { name: 'Ivory', hex: '#FAF3E0' },
+            { name: 'Emerald', hex: '#047857' },
+            { name: 'Royal Black', hex: '#111827' }
+          ],
+          ics: {
+            startDate: '20270303',
+            endDate: '20270304',
+            summary: 'Real & Sujit — Grand Reception'
+          }
+        }
+      ];
+
+      /* =======================================================================
+         2. DYNAMIC SCROLL MOOD PALETTES & CANVAS PARTICLE THEMES
+         ======================================================================= */
+      const MOOD_PALETTES = {
+        hero: {
+          bgPrimary: '#4A0612',
+          bgSecondary: '#1A0206',
+          accentGlow: 'rgba(212, 175, 55, 0.25)',
+          accentSecondary: 'rgba(125, 11, 27, 0.28)',
+          dotColor: '#D4AF37',
+          particles: ['#F5DC87', '#D4AF37', '#FFF3B0'],
+          petalColors: ['#D4AF37', '#B91C1C', '#F5DC87'],
+          mode: 'dust'
+        },
+        couple: {
+          bgPrimary: '#4E0714',
+          bgSecondary: '#1D0207',
+          accentGlow: 'rgba(229, 193, 88, 0.22)',
+          accentSecondary: 'rgba(140, 20, 40, 0.26)',
+          dotColor: '#F5DC87',
+          particles: ['#F5DC87', '#E5C158', '#FAF3E0'],
+          petalColors: ['#D4AF37', '#9F1239', '#F5DC87'],
+          mode: 'dust'
+        },
+        engagement: {
+          bgPrimary: '#520816',
+          bgSecondary: '#1E0209',
+          accentGlow: 'rgba(212, 175, 55, 0.28)',
+          accentSecondary: 'rgba(136, 19, 55, 0.30)',
+          dotColor: '#E6C98B',
+          particles: ['#F5DC87', '#E6C98B', '#D4AF37'],
+          petalColors: ['#E6C98B', '#D4AF37', '#FAF3E0'],
+          mode: 'golddust'
+        },
+        haldi: {
+          bgPrimary: '#633B06',
+          bgSecondary: '#0C291C', /* Sunlit Turmeric Yellow & Emerald Green */
+          accentGlow: 'rgba(245, 158, 11, 0.34)',
+          accentSecondary: 'rgba(16, 185, 129, 0.24)',
+          dotColor: '#F59E0B',
+          particles: ['#FDE68A', '#34D399', '#F59E0B'],
+          petalColors: ['#F59E0B', '#FBBF24', '#EA580C'],
+          mode: 'marigold'
+        },
+        sangeet: {
+          bgPrimary: '#24124D', /* Deep Indigo Twilight & Rose Gold */
+          bgSecondary: '#0E0521',
+          accentGlow: 'rgba(244, 162, 184, 0.26)',
+          accentSecondary: 'rgba(124, 58, 237, 0.28)',
+          dotColor: '#F4A2B8',
+          particles: ['#F5C2C7', '#F5DC87', '#C084FC'],
+          petalColors: ['#F4A2B8', '#D4AF37', '#A855F7'],
+          mode: 'bokeh'
+        },
+        wedding: {
+          bgPrimary: '#730816', /* Sacred Crimson & Temple Gold */
+          bgSecondary: '#240207',
+          accentGlow: 'rgba(255, 166, 43, 0.32)',
+          accentSecondary: 'rgba(185, 28, 28, 0.30)',
+          dotColor: '#EF4444',
+          particles: ['#FFA62B', '#F5DC87', '#FF6B35'],
+          petalColors: ['#DC2626', '#F5DC87', '#F97316'],
+          mode: 'embers'
+        },
+        reception: {
+          bgPrimary: '#0E1C42', /* Starry Midnight & Champagne Gold */
+          bgSecondary: '#050A1B',
+          accentGlow: 'rgba(243, 229, 171, 0.24)',
+          accentSecondary: 'rgba(59, 130, 246, 0.22)',
+          dotColor: '#F3E5AB',
+          particles: ['#FAF3E0', '#F3E5AB', '#D4AF37'],
+          petalColors: ['#F3E5AB', '#FAF3E0', '#D4AF37'],
+          mode: 'stardust'
+        }
+      };
+
+      let activeMoodKey = 'hero';
+
+      /* =======================================================================
+         3. TOAST MESSAGE HELPER (NEVER USES alert() OR confirm())
+         ======================================================================= */
+      const toastBanner = document.getElementById('toast-banner');
+      const toastMessage = document.getElementById('toast-message');
+      let toastTimeout = null;
+
+      function showToast(msg) {
+        if (!toastBanner || !toastMessage) return;
+        toastMessage.textContent = msg;
+        toastBanner.classList.remove('translate-y-20', 'opacity-0');
+        toastBanner.classList.add('translate-y-0', 'opacity-100');
+        clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => {
+          toastBanner.classList.remove('translate-y-0', 'opacity-100');
+          toastBanner.classList.add('translate-y-20', 'opacity-0');
+        }, 3400);
+      }
+
+      /* =======================================================================
+         4. MULTI-STAGE WEB AUDIO ENGINE
+            (a) Kalinga Brass Temple Bell Chime with rich metallic overtones
+            (b) Soft Filtered-Noise Silk/Wood Door Swoosh
+            (c) +1.1s fade-in: Tanpura Drone (Sa-Pa) + Expressive Bansuri Flute
+                (Raga Yaman/Bhupali phrasing with soft vibrato) + Santoor Plucks
+         ======================================================================= */
+      const WeddingAudio = {
+        ctx: null,
+        masterGain: null,
+        melodyBus: null,
+        echoInput: null,
+        noiseBuffer: null,
+        customAudioEl: null,
+        usingCustomTrack: false,
+        isMuted: false,
+        isStarted: false,
+        styleMode: 'flute', // 'flute' ("Flute & Santoor") | 'drone' ("Temple Drone")
+        fluteTimeout: null,
+        santoorTimeout: null,
+        phraseIndex: 0,
+
+        init() {
+          try {
+            const AudioCtx = window.AudioContext || window.webkitAudioContext;
+            if (!AudioCtx) return false;
+            if (!this.ctx) {
+              this.ctx = new AudioCtx();
+
+              const compressor = this.ctx.createDynamicsCompressor();
+              compressor.threshold.setValueAtTime(-16, this.ctx.currentTime);
+              compressor.ratio.setValueAtTime(3.5, this.ctx.currentTime);
+              compressor.connect(this.ctx.destination);
+
+              this.masterGain = this.ctx.createGain();
+              this.masterGain.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+              this.masterGain.connect(compressor);
+
+              this.melodyBus = this.ctx.createGain();
+              this.melodyBus.gain.setValueAtTime(0.0001, this.ctx.currentTime);
+              this.melodyBus.connect(this.masterGain);
+
+              this.setupCourtyardEcho();
+
+              // Pre-generate 2s warm filtered noise buffer (door swoosh & flute breath)
+              const sampleRate = this.ctx.sampleRate;
+              const length = sampleRate * 2;
+              this.noiseBuffer = this.ctx.createBuffer(1, length, sampleRate);
+              const data = this.noiseBuffer.getChannelData(0);
+              let lastOut = 0;
+              for (let i = 0; i < length; i++) {
+                const white = Math.random() * 2 - 1;
+                data[i] = (lastOut + 0.04 * white) / 1.04;
+                lastOut = data[i];
+                data[i] *= 2.4;
+              }
+            }
+            if (this.ctx.state === 'suspended') {
+              this.ctx.resume();
+            }
+            return true;
+          } catch (e) {
+            return false;
+          }
+        },
+
+        setupCourtyardEcho() {
+          const ctx = this.ctx;
+          this.echoInput = ctx.createGain();
+          this.echoInput.gain.setValueAtTime(0.54, ctx.currentTime);
+
+          const delayL = ctx.createDelay(1.0);
+          const delayR = ctx.createDelay(1.0);
+          delayL.delayTime.setValueAtTime(0.36, ctx.currentTime);
+          delayR.delayTime.setValueAtTime(0.52, ctx.currentTime);
+
+          const dampFilter = ctx.createBiquadFilter();
+          dampFilter.type = 'lowpass';
+          dampFilter.frequency.setValueAtTime(2150, ctx.currentTime);
+
+          const feedback = ctx.createGain();
+          feedback.gain.setValueAtTime(0.36, ctx.currentTime);
+
+          const wetGain = ctx.createGain();
+          wetGain.gain.setValueAtTime(0.45, ctx.currentTime);
+
+          this.echoInput.connect(delayL);
+          this.echoInput.connect(delayR);
+          delayL.connect(dampFilter);
+          delayR.connect(dampFilter);
+          dampFilter.connect(feedback);
+          feedback.connect(delayL);
+          dampFilter.connect(wetGain);
+          wetGain.connect(this.melodyBus);
+        },
+
+        playDoorSwoosh() {
+          if (!this.init() || this.isMuted || !this.noiseBuffer) return;
+          try {
+            const now = this.ctx.currentTime;
+            const src = this.ctx.createBufferSource();
+            src.buffer = this.noiseBuffer;
+
+            const bp = this.ctx.createBiquadFilter();
+            bp.type = 'bandpass';
+            bp.Q.setValueAtTime(2.3, now);
+            bp.frequency.setValueAtTime(185, now);
+            bp.frequency.exponentialRampToValueAtTime(620, now + 0.6);
+            bp.frequency.exponentialRampToValueAtTime(200, now + 1.5);
+
+            const gain = this.ctx.createGain();
+            gain.gain.setValueAtTime(0.0001, now);
+            gain.gain.linearRampToValueAtTime(0.16, now + 0.34);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + 1.55);
+
+            src.connect(bp);
+            bp.connect(gain);
+            gain.connect(this.masterGain);
+            src.start(now);
+            src.stop(now + 1.6);
+          } catch (e) {}
+        },
+
+        playTempleBell(intensity = 1.0) {
+          if (!this.init() || this.isMuted) return;
+          try {
+            const now = this.ctx.currentTime;
+            const partials = [
+              { freq: 293.66, amp: 0.26 * intensity, decay: 4.3 },
+              { freq: 587.33, amp: 0.17 * intensity, decay: 3.3 },
+              { freq: 809.3,  amp: 0.11 * intensity, decay: 2.4 },
+              { freq: 1196.0, amp: 0.065 * intensity, decay: 1.7 },
+              { freq: 1588.0, amp: 0.04 * intensity, decay: 1.2 },
+              { freq: 2349.3, amp: 0.022 * intensity, decay: 0.75 }
+            ];
+
+            partials.forEach((p) => {
+              const osc = this.ctx.createOscillator();
+              const gain = this.ctx.createGain();
+              osc.type = 'sine';
+              osc.frequency.setValueAtTime(p.freq, now);
+
+              gain.gain.setValueAtTime(0.0001, now);
+              gain.gain.exponentialRampToValueAtTime(p.amp, now + 0.014);
+              gain.gain.exponentialRampToValueAtTime(0.0001, now + p.decay);
+
+              osc.connect(gain);
+              gain.connect(this.masterGain);
+              osc.start(now);
+              osc.stop(now + p.decay + 0.08);
+            });
+          } catch (e) {}
+        },
+
+        startTanpuraDrone() {
+          const now = this.ctx.currentTime;
+          const droneBus = this.ctx.createGain();
+          droneBus.gain.setValueAtTime(0.0001, now);
+          droneBus.gain.linearRampToValueAtTime(0.86, now + 2.4);
+
+          const warmLP = this.ctx.createBiquadFilter();
+          warmLP.type = 'lowpass';
+          warmLP.frequency.setValueAtTime(385, now);
+          warmLP.Q.setValueAtTime(1.4, now);
+          droneBus.connect(warmLP);
+          warmLP.connect(this.masterGain);
+
+          const strings = [
+            { f: 73.42,  type: 'triangle', vol: 0.10, rate: 0.11 }, // Low Sa (D2)
+            { f: 110.00, type: 'sine',     vol: 0.08, rate: 0.15 }, // Pa (A2)
+            { f: 146.83, type: 'triangle', vol: 0.065, rate: 0.19 }, // Mid Sa (D3)
+            { f: 147.28, type: 'sine',     vol: 0.048, rate: 0.23 }, // Jawari shimmer Sa
+            { f: 220.00, type: 'sine',     vol: 0.032, rate: 0.17 }  // Upper Pa (A3)
+          ];
+
+          strings.forEach((s) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            const lfo = this.ctx.createOscillator();
+            const lfoGain = this.ctx.createGain();
+
+            osc.type = s.type;
+            osc.frequency.setValueAtTime(s.f, now);
+
+            lfo.frequency.setValueAtTime(s.rate, now);
+            lfoGain.gain.setValueAtTime(s.vol * 0.38, now);
+            gain.gain.setValueAtTime(s.vol, now);
+
+            lfo.connect(lfoGain);
+            lfoGain.connect(gain.gain);
+            osc.connect(gain);
+            gain.connect(droneBus);
+
+            osc.start(now);
+            lfo.start(now);
+          });
+        },
+
+        playBansuriPhrase(notes) {
+          if (!this.ctx || this.isMuted || document.hidden || this.styleMode !== 'flute') return;
+          try {
+            const ctx = this.ctx;
+            const now = ctx.currentTime + 0.05;
+
+            const osc = ctx.createOscillator();
+            const overtone = ctx.createOscillator();
+            const overtoneGain = ctx.createGain();
+            const env = ctx.createGain();
+            const vibLfo = ctx.createOscillator();
+            const vibDepth = ctx.createGain();
+
+            const breath = ctx.createBufferSource();
+            breath.buffer = this.noiseBuffer;
+            breath.loop = true;
+            const breathFilter = ctx.createBiquadFilter();
+            breathFilter.type = 'bandpass';
+            breathFilter.Q.setValueAtTime(5.5, now);
+            const breathGain = ctx.createGain();
+            breathGain.gain.setValueAtTime(0.012, now);
+
+            osc.type = 'sine';
+            overtone.type = 'sine';
+            overtoneGain.gain.setValueAtTime(0.14, now);
+
+            vibLfo.frequency.setValueAtTime(5.1, now);
+            vibDepth.gain.setValueAtTime(3.2, now);
+            vibLfo.connect(vibDepth);
+            vibDepth.connect(osc.frequency);
+
+            let cursor = now;
+            osc.frequency.setValueAtTime(notes[0].f, now);
+            overtone.frequency.setValueAtTime(notes[0].f * 2, now);
+            breathFilter.frequency.setValueAtTime(notes[0].f * 2.2, now);
+
+            env.gain.setValueAtTime(0.0001, now);
+
+            notes.forEach((n, idx) => {
+              const glide = n.glide || 0.16;
+              if (idx === 0) {
+                env.gain.linearRampToValueAtTime(0.115, cursor + 0.34);
+              } else {
+                osc.frequency.exponentialRampToValueAtTime(n.f, cursor + glide);
+                overtone.frequency.exponentialRampToValueAtTime(n.f * 2, cursor + glide);
+                breathFilter.frequency.exponentialRampToValueAtTime(n.f * 2.2, cursor + glide);
+                env.gain.linearRampToValueAtTime(0.085, cursor + 0.08);
+                env.gain.linearRampToValueAtTime(0.11, cursor + glide + 0.14);
+              }
+              cursor += n.dur;
+            });
+
+            env.gain.setValueAtTime(0.095, Math.max(now + 0.35, cursor - 0.42));
+            env.gain.exponentialRampToValueAtTime(0.0001, cursor + 0.18);
+
+            osc.connect(env);
+            overtone.connect(overtoneGain);
+            overtoneGain.connect(env);
+            breath.connect(breathFilter);
+            breathFilter.connect(breathGain);
+            breathGain.connect(env);
+
+            env.connect(this.melodyBus);
+            env.connect(this.echoInput);
+
+            osc.start(now);
+            overtone.start(now);
+            vibLfo.start(now);
+            breath.start(now);
+
+            const stopAt = cursor + 0.25;
+            osc.stop(stopAt);
+            overtone.stop(stopAt);
+            vibLfo.stop(stopAt);
+            breath.stop(stopAt);
+          } catch (e) {}
+        },
+
+        playSantoorPluck(freq, delayOffset = 0, velocity = 0.072) {
+          if (!this.ctx || this.isMuted || document.hidden || this.styleMode !== 'flute') return;
+          try {
+            const ctx = this.ctx;
+            const t = ctx.currentTime + delayOffset;
+
+            const osc1 = ctx.createOscillator();
+            const osc2 = ctx.createOscillator();
+            osc1.type = 'triangle';
+            osc2.type = 'sine';
+            osc1.frequency.setValueAtTime(freq, t);
+            osc2.frequency.setValueAtTime(freq * 2.002, t);
+
+            const filter = ctx.createBiquadFilter();
+            filter.type = 'lowpass';
+            filter.frequency.setValueAtTime(2900, t);
+            filter.frequency.exponentialRampToValueAtTime(520, t + 1.4);
+
+            const gain = ctx.createGain();
+            gain.gain.setValueAtTime(0.0001, t);
+            gain.gain.linearRampToValueAtTime(velocity, t + 0.009);
+            gain.gain.exponentialRampToValueAtTime(0.0001, t + 1.9);
+
+            const g2 = ctx.createGain();
+            g2.gain.setValueAtTime(0.32, t);
+
+            osc1.connect(filter);
+            osc2.connect(g2);
+            g2.connect(filter);
+            filter.connect(gain);
+            gain.connect(this.melodyBus);
+            gain.connect(this.echoInput);
+
+            osc1.start(t);
+            osc2.start(t);
+            osc1.stop(t + 1.95);
+            osc2.stop(t + 1.95);
+          } catch (e) {}
+        },
+
+        startClassicalScoreLoops() {
+          // Pentatonic / Raga Yaman-inspired gentle phrases in D
+          const ragaPhrases = [
+            [
+              { f: 369.99, dur: 1.05 },
+              { f: 415.30, dur: 0.95, glide: 0.18 }, // Tivra Ma (Raga Yaman flavor)
+              { f: 440.00, dur: 1.0, glide: 0.18 },
+              { f: 493.88, dur: 1.05, glide: 0.18 },
+              { f: 587.33, dur: 1.85, glide: 0.24 }
+            ],
+            [
+              { f: 587.33, dur: 0.95 },
+              { f: 659.25, dur: 1.0, glide: 0.2 },
+              { f: 587.33, dur: 0.85, glide: 0.18 },
+              { f: 493.88, dur: 1.05, glide: 0.22 },
+              { f: 440.00, dur: 1.65, glide: 0.24 }
+            ],
+            [
+              { f: 329.63, dur: 0.9 },
+              { f: 369.99, dur: 1.05, glide: 0.2 },
+              { f: 440.00, dur: 1.2, glide: 0.22 },
+              { f: 369.99, dur: 0.85, glide: 0.18 },
+              { f: 293.66, dur: 1.85, glide: 0.26 }
+            ],
+            [
+              { f: 440.00, dur: 0.9 },
+              { f: 493.88, dur: 0.95, glide: 0.18 },
+              { f: 587.33, dur: 1.05, glide: 0.2 },
+              { f: 739.99, dur: 1.3, glide: 0.24 },
+              { f: 659.25, dur: 0.9, glide: 0.18 },
+              { f: 587.33, dur: 1.7, glide: 0.22 }
+            ]
+          ];
+
+          const santoorArpeggios = [
+            [293.66, 369.99, 440.00, 587.33, 739.99],
+            [440.00, 493.88, 587.33, 659.25, 587.33],
+            [369.99, 440.00, 587.33, 493.88, 440.00],
+            [293.66, 329.63, 440.00, 587.33, 659.25]
+          ];
+
+          const scheduleNextFlute = () => {
+            const phrase = ragaPhrases[this.phraseIndex % ragaPhrases.length];
+            this.phraseIndex++;
+            this.playBansuriPhrase(phrase);
+            const totalDurMs = phrase.reduce((acc, n) => acc + n.dur * 1000, 0);
+            this.fluteTimeout = setTimeout(scheduleNextFlute, totalDurMs + 2100);
+          };
+
+          const scheduleNextSantoor = () => {
+            const arp = santoorArpeggios[Math.floor(Math.random() * santoorArpeggios.length)];
+            arp.forEach((freq, i) => {
+              this.playSantoorPluck(freq, i * 0.27, 0.06 - i * 0.005);
+            });
+            this.santoorTimeout = setTimeout(scheduleNextSantoor, 6000 + Math.random() * 2400);
+          };
+
+          this.santoorTimeout = setTimeout(scheduleNextSantoor, 250);
+          this.fluteTimeout = setTimeout(scheduleNextFlute, 950);
+        },
+
+        startOpeningSequence() {
+          if (!this.init()) return;
+          try {
+            const now = this.ctx.currentTime;
+            this.masterGain.gain.cancelScheduledValues(now);
+            this.masterGain.gain.setTargetAtTime(this.isMuted ? 0.0001 : 0.62, now, 0.12);
+
+            // Stage 1: Resonant Kalinga Temple Bell + Soft Silk/Wood Door Swoosh
+            this.playDoorSwoosh();
+            this.playTempleBell(1.0);
+
+            if (this.isStarted) return;
+            this.isStarted = true;
+
+            // Check optional <audio id="custom-music-track">
+            this.customAudioEl = document.getElementById('custom-music-track');
+            const hasCustomSource =
+              this.customAudioEl &&
+              (this.customAudioEl.getAttribute('src') || this.customAudioEl.querySelector('source'));
+
+            // Stage 2: Smoothly fade in background instrumental 1.1 seconds after bell
+            setTimeout(() => {
+              if (hasCustomSource) {
+                this.usingCustomTrack = true;
+                this.customAudioEl.volume = 0;
+                this.customAudioEl.play().then(() => {
+                  let v = 0;
+                  const fade = setInterval(() => {
+                    if (this.isMuted) { this.customAudioEl.volume = 0; clearInterval(fade); return; }
+                    v = Math.min(0.65, v + 0.04);
+                    this.customAudioEl.volume = v;
+                    if (v >= 0.65) clearInterval(fade);
+                  }, 105);
+                }).catch(() => {
+                  this.usingCustomTrack = false;
+                  this.fadeInSynthScore();
+                });
+              } else {
+                this.fadeInSynthScore();
+              }
+            }, 1100);
+          } catch (e) {}
+        },
+
+        fadeInSynthScore() {
+          if (!this.ctx) return;
+          const now = this.ctx.currentTime;
+          this.startTanpuraDrone();
+          this.melodyBus.gain.cancelScheduledValues(now);
+          this.melodyBus.gain.setTargetAtTime(this.styleMode === 'flute' ? 0.92 : 0.0001, now, 0.8);
+          this.startClassicalScoreLoops();
+        },
+
+        toggleMute() {
+          this.isMuted = !this.isMuted;
+          if (this.ctx && this.masterGain) {
+            const now = this.ctx.currentTime;
+            this.masterGain.gain.cancelScheduledValues(now);
+            this.masterGain.gain.setTargetAtTime(this.isMuted ? 0.0001 : 0.62, now, 0.18);
+          }
+          if (this.usingCustomTrack && this.customAudioEl) {
+            this.customAudioEl.muted = this.isMuted;
+          }
+          return this.isMuted;
+        },
+
+        toggleStyleMode() {
+          this.styleMode = this.styleMode === 'flute' ? 'drone' : 'flute';
+          if (this.ctx && this.melodyBus) {
+            const now = this.ctx.currentTime;
+            this.melodyBus.gain.cancelScheduledValues(now);
+            this.melodyBus.gain.setTargetAtTime(this.styleMode === 'flute' ? 0.92 : 0.0001, now, 0.5);
+          }
+          if (this.styleMode === 'drone' && !this.isMuted) {
+            this.playTempleBell(0.45);
+          }
+          return this.styleMode;
+        }
+      };
+
+      /* =======================================================================
+         5. FULLSCREEN 60FPS CANVAS PARTICLE & CELEBRATORY BURST ENGINE
+         ======================================================================= */
+      const canvas = document.getElementById('atmosphere-canvas');
+      const ctx = canvas ? canvas.getContext('2d') : null;
+      let canvasWidth = 0;
+      let canvasHeight = 0;
+      const ambientParticles = [];
+      const burstParticles = [];
+      let isCanvasRunning = false;
+
+      function resizeCanvas() {
+        if (!canvas || !ctx) return;
+        const dpr = Math.min(window.devicePixelRatio || 1, 2); // Cap DPR at 2 for 60fps mobile
+        canvasWidth = window.innerWidth;
+        canvasHeight = window.innerHeight;
+        canvas.width = Math.floor(canvasWidth * dpr);
+        canvas.height = Math.floor(canvasHeight * dpr);
+        canvas.style.width = canvasWidth + 'px';
+        canvas.style.height = canvasHeight + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+
+      function createAmbientParticle(randomY) {
+        const depth = Math.random();
+        const isPetal = depth > 0.68 && Math.random() > 0.42;
+        return {
+          x: Math.random() * (canvasWidth || window.innerWidth),
+          y: randomY ? Math.random() * (canvasHeight || window.innerHeight) : -20,
+          depth,
+          isPetal,
+          size: isPetal ? 4.5 + depth * 5.2 : 1.1 + depth * 2.5,
+          vx: (Math.random() - 0.5) * (0.24 + depth * 0.42),
+          vy: isPetal ? 0.42 + depth * 0.72 : (Math.random() * 0.34 + 0.12),
+          angle: Math.random() * Math.PI * 2,
+          spin: (Math.random() - 0.5) * 0.025,
+          phase: Math.random() * Math.PI * 2,
+          colorIndex: Math.floor(Math.random() * 3),
+          alpha: 0.26 + depth * 0.56
+        };
+      }
+
+      function initParticles() {
+        ambientParticles.length = 0;
+        const count = window.innerWidth < 640 ? 46 : 74;
+        for (let i = 0; i < count; i++) {
+          ambientParticles.push(createAmbientParticle(true));
+        }
+      }
+
+      function triggerCelebratoryBurst(originX, originY, amount = 85) {
+        const cx = originX ?? canvasWidth / 2;
+        const cy = originY ?? canvasHeight / 2;
+        const palette = ['#FFF3B0', '#F5DC87', '#D4AF37', '#F59E0B', '#EA580C', '#FAF3E0'];
+
+        for (let i = 0; i < amount; i++) {
+          const angle = Math.random() * Math.PI * 2;
+          const speed = 2.4 + Math.random() * 8.2;
+          burstParticles.push({
+            x: cx,
+            y: cy,
+            vx: Math.cos(angle) * speed,
+            vy: Math.sin(angle) * speed - 2.6,
+            gravity: 0.11 + Math.random() * 0.06,
+            size: 4 + Math.random() * 6,
+            isPetal: Math.random() > 0.35,
+            angle: Math.random() * Math.PI * 2,
+            spin: (Math.random() - 0.5) * 0.14,
+            life: 1,
+            decay: 0.008 + Math.random() * 0.01,
+            color: palette[Math.floor(Math.random() * palette.length)]
+          });
+        }
+      }
+
+      function drawPetal(context, x, y, size, angle, color, alpha) {
+        context.save();
+        context.translate(x, y);
+        context.rotate(angle);
+        context.globalAlpha = alpha;
+        context.fillStyle = color;
+        context.beginPath();
+        context.moveTo(0, -size);
+        context.bezierCurveTo(size * 0.85, -size * 0.45, size * 0.75, size * 0.6, 0, size);
+        context.bezierCurveTo(-size * 0.75, size * 0.6, -size * 0.85, -size * 0.45, 0, -size);
+        context.fill();
+        context.restore();
+      }
+
+      function animateAtmosphere(timestamp) {
+        if (!ctx) return;
+        ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+        const palette = MOOD_PALETTES[activeMoodKey] || MOOD_PALETTES.hero;
+        const t = (timestamp || 0) * 0.001;
+
+        for (let i = 0; i < ambientParticles.length; i++) {
+          const p = ambientParticles[i];
+          const sway = Math.sin(t * 0.9 + p.phase) * 0.35;
+
+          if (palette.mode === 'embers') {
+            p.y -= p.vy * 1.2;
+            p.x += p.vx + sway;
+            if (p.y < -25) { p.y = canvasHeight + 20; p.x = Math.random() * canvasWidth; }
+          } else if (palette.mode === 'marigold') {
+            p.y += p.vy * 1.4;
+            p.x += p.vx + sway * 1.5;
+            if (p.y > canvasHeight + 25) { p.y = -20; p.x = Math.random() * canvasWidth; }
+          } else {
+            p.y += p.isPetal ? p.vy : -p.vy * 0.52;
+            p.x += p.vx + sway;
+            if (p.y > canvasHeight + 25) { p.y = -20; p.x = Math.random() * canvasWidth; }
+            else if (p.y < -25) { p.y = canvasHeight + 20; p.x = Math.random() * canvasWidth; }
+          }
+
+          if (p.x < -30) p.x = canvasWidth + 20;
+          if (p.x > canvasWidth + 30) p.x = -20;
+          p.angle += p.spin;
+
+          const twinkle = 0.62 + 0.38 * Math.sin(t * 2.3 + p.phase);
+
+          if (p.isPetal && (palette.mode === 'marigold' || palette.mode === 'wedding')) {
+            const pColor = palette.petalColors[p.colorIndex % palette.petalColors.length];
+            drawPetal(ctx, p.x, p.y, p.size, p.angle, pColor, p.alpha * 0.76);
+          } else {
+            const dColor = palette.particles[p.colorIndex % palette.particles.length];
+            const radius = palette.mode === 'bokeh' ? p.size * 2.3 : p.size;
+            ctx.save();
+            ctx.globalAlpha = p.alpha * twinkle * (palette.mode === 'bokeh' ? 0.44 : 0.88);
+            ctx.fillStyle = dColor;
+            ctx.shadowColor = dColor;
+            ctx.shadowBlur = palette.mode === 'bokeh' ? 14 : 7;
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, radius, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+          }
+        }
+
+        // Celebratory Marigold & Gold Glitter Burst Particles
+        for (let i = burstParticles.length - 1; i >= 0; i--) {
+          const b = burstParticles[i];
+          b.x += b.vx;
+          b.y += b.vy;
+          b.vy += b.gravity;
+          b.vx *= 0.985;
+          b.angle += b.spin;
+          b.life -= b.decay;
+
+          if (b.life <= 0) {
+            burstParticles.splice(i, 1);
+            continue;
+          }
+
+          if (b.isPetal) {
+            drawPetal(ctx, b.x, b.y, b.size, b.angle, b.color, Math.max(0, b.life));
+          } else {
+            ctx.save();
+            ctx.globalAlpha = Math.max(0, b.life);
+            ctx.fillStyle = b.color;
+            ctx.shadowColor = b.color;
+            ctx.shadowBlur = 9;
+            ctx.beginPath();
+            ctx.arc(b.x, b.y, b.size * 0.55, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+          }
+        }
+
+        requestAnimationFrame(animateAtmosphere);
+      }
+
+      /* =======================================================================
+         6. COUPLE PORTRAIT FRAME: GRACEFUL ./og-image.jpg + LOCAL PREVIEW
+         ======================================================================= */
+      function initCouplePortraitFrame() {
+        const imgEl = document.getElementById('couple-portrait-img');
+        const fallbackEl = document.getElementById('portrait-fallback');
+        const photoOverlay = document.getElementById('portrait-photo-overlay');
+        const changePill = document.getElementById('change-photo-pill');
+        const fileInput = document.getElementById('local-photo-input');
+        let currentObjectUrl = null;
+
+        function showPhotoMode() {
+          if (imgEl) imgEl.classList.remove('hidden');
+          if (photoOverlay) photoOverlay.classList.remove('hidden');
+          if (changePill) {
+            changePill.classList.remove('hidden');
+            changePill.classList.add('inline-flex');
+          }
+          if (fallbackEl) {
+            fallbackEl.classList.add('hidden');
+            fallbackEl.classList.remove('flex');
+          }
+        }
+
+        function showFallbackMode() {
+          if (imgEl) imgEl.classList.add('hidden');
+          if (photoOverlay) photoOverlay.classList.add('hidden');
+          if (changePill) {
+            changePill.classList.add('hidden');
+            changePill.classList.remove('inline-flex');
+          }
+          if (fallbackEl) {
+            fallbackEl.classList.remove('hidden');
+            fallbackEl.classList.add('flex');
+          }
+        }
+
+        if (imgEl) {
+          imgEl.addEventListener('error', showFallbackMode);
+          imgEl.addEventListener('load', () => {
+            if (imgEl.naturalWidth > 0) showPhotoMode();
+            else showFallbackMode();
+          });
+          // Handle case where image already failed or loaded before listener attached
+          if (imgEl.complete) {
+            if (imgEl.naturalWidth > 0) showPhotoMode();
+            else showFallbackMode();
+          }
+        }
+
+        if (fileInput) {
+          fileInput.addEventListener('change', (e) => {
+            const file = e.target.files && e.target.files[0];
+            if (!file) return;
+            try {
+              if (currentObjectUrl) URL.revokeObjectURL(currentObjectUrl);
+              currentObjectUrl = URL.createObjectURL(file);
+              imgEl.src = currentObjectUrl;
+              showPhotoMode();
+              triggerCelebratoryBurst(window.innerWidth / 2, window.innerHeight * 0.45, 50);
+              showToast('Couple portrait loaded in 3D gilded arch!');
+            } catch (err) {
+              showToast('Could not preview that file.');
+            }
+          });
+        }
+      }
+
+      /* =======================================================================
+         7. RENDER 5 CEREMONY 3D CARDS & .ICS CALENDAR GENERATOR
+         ======================================================================= */
+      function downloadICSFile(ev) {
+        try {
+          const uid = `${ev.id}-real-sujit-wedding@kalingaheritage.local`;
+          const nowStamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+          const icsLines = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//Real & Sujit//Royal Kalinga Wedding Invitation//EN',
+            'CALSCALE:GREGORIAN',
+            'METHOD:PUBLISH',
+            'BEGIN:VEVENT',
+            `UID:${uid}`,
+            `DTSTAMP:${nowStamp}`,
+            `DTSTART;VALUE=DATE:${ev.ics.startDate}`,
+            `DTEND;VALUE=DATE:${ev.ics.endDate}`,
+            `SUMMARY:${ev.ics.summary}`,
+            `LOCATION:${ev.venueName}`,
+            `DESCRIPTION:${ev.description} Directions: ${ev.mapUrl} (${ev.timeText})`,
+            'END:VEVENT',
+            'END:VCALENDAR'
+          ].join('\r\n');
+
+          const blob = new Blob([icsLines], { type: 'text/calendar;charset=utf-8' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `Real-Sujit-${ev.id}.ics`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          setTimeout(() => URL.revokeObjectURL(url), 1000);
+
+          showToast(`Downloaded calendar invite (.ics) for ${ev.title}`);
+        } catch (err) {
+          showToast('Unable to download calendar file on this device.');
+        }
+      }
+
+      function renderEventCards() {
+        const container = document.getElementById('events-container');
+        if (!container) return;
+
+        container.innerHTML = WEDDING_EVENTS.map((ev, index) => {
+          const swatchesHtml = ev.swatches
+            .map(
+              (s) => `
+              <div class="inline-flex items-center gap-2 rounded-full border border-temple-gold/30 bg-kalinga-deep/75 px-3 py-1">
+                <span class="h-3.5 w-3.5 rounded-full border border-white/45 shadow-sm shrink-0" style="background-color: ${s.hex};"></span>
+                <span class="text-[11px] font-medium text-parchment-cream/90">${s.name}</span>
+              </div>`
+            )
+            .join('');
+
+          const featuredBadge = ev.featured
+            ? `<div class="mb-4 flex flex-wrap items-center justify-center sm:justify-start gap-2">
+                 <span class="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-[#A57A1F] via-[#F5DC87] to-[#B48420] px-3.5 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-kalinga-deep shadow-md">
+                   ★ Auspicious Main Ceremony
+                 </span>
+                 <span class="inline-flex items-center gap-1.5 rounded-full border border-temple-light/60 bg-kalinga-deep/80 px-3.5 py-1 text-[11px] font-semibold tracking-wider text-temple-pale">
+                   🪔 Subha Bibaha
+                 </span>
+               </div>`
+            : '';
+
+          return `
+            <article
+              data-mood="${ev.mood}"
+              data-chapter="${ev.chapter}"
+              class="tilt-3d-wrapper reveal-on-scroll"
+            >
+              <div class="tilt-3d-surface relative overflow-hidden rounded-3xl p-6 sm:p-9 ${ev.featured ? 'event-card-featured' : 'event-card-glass gold-border-glow'}">
+                <!-- Traditional Odia Jhoti Chita Corner Ornaments -->
+                <svg class="pointer-events-none absolute top-2.5 left-2.5 h-11 w-11 text-temple-gold/40" viewBox="0 0 80 80" fill="none">
+                  <path d="M5 5 C24 7 36 18 39 36 C22 34 9 23 5 5 Z" stroke="currentColor" stroke-width="1.3" />
+                  <circle cx="19" cy="19" r="2.2" fill="currentColor" />
+                  <circle cx="46" cy="11" r="1.5" fill="currentColor" />
+                  <circle cx="11" cy="46" r="1.5" fill="currentColor" />
+                </svg>
+                <svg class="pointer-events-none absolute bottom-2.5 right-2.5 h-11 w-11 text-temple-gold/40 rotate-180" viewBox="0 0 80 80" fill="none">
+                  <path d="M5 5 C24 7 36 18 39 36 C22 34 9 23 5 5 Z" stroke="currentColor" stroke-width="1.3" />
+                  <circle cx="19" cy="19" r="2.2" fill="currentColor" />
+                </svg>
+
+                ${featuredBadge}
+
+                <div class="relative z-10 flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+                  <div class="space-y-2.5 text-center sm:text-left">
+                    <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-temple-gold">
+                      <span class="text-base" aria-hidden="true">${ev.icon}</span>
+                      <span>0${index + 1}</span>
+                      <span class="h-[1px] w-6 bg-temple-gold/60"></span>
+                      <span>${ev.dayLabel}</span>
+                    </div>
+
+                    <h3 class="font-display text-2xl sm:text-4xl font-bold gold-foil-text">
+                      ${ev.title}
+                    </h3>
+                    <p class="font-serif italic text-lg sm:text-xl text-temple-pale/95">
+                      ${ev.subtitle}
+                    </p>
+                    <p class="max-w-xl text-sm sm:text-[15px] leading-relaxed text-parchment-cream/85 pt-1">
+                      ${ev.description}
+                    </p>
+                  </div>
+
+                  <!-- Date, Time & Venue Box -->
+                  <div class="shrink-0 rounded-2xl border border-temple-gold/35 bg-kalinga-deep/75 p-4 text-center sm:text-right sm:min-w-[245px]">
+                    <p class="text-xs font-semibold uppercase tracking-[0.14em] text-temple-light">${ev.dateText}</p>
+                    <p class="mt-1.5 inline-block rounded-full border border-temple-gold/32 bg-kalinga-maroon/55 px-3 py-0.5 text-[11px] italic tracking-wide text-parchment-cream/85">
+                      ${ev.timeText}
+                    </p>
+                    <div class="my-3 h-[1px] w-full bg-gradient-to-r from-transparent via-temple-gold/45 to-transparent"></div>
+                    <p class="text-[10px] uppercase tracking-[0.22em] text-temple-gold/85">Venue</p>
+                    <p class="mt-0.5 font-serif text-lg font-semibold text-parchment-ivory">${ev.venueName}</p>
+                  </div>
+                </div>
+
+                <!-- Attire Swatches & Map / Calendar Buttons -->
+                <div class="relative z-10 mt-6 flex flex-col gap-5 border-t border-temple-gold/22 pt-5 sm:flex-row sm:items-center sm:justify-between">
+                  <div class="flex flex-col items-center sm:items-start gap-2">
+                    <span class="text-[10px] font-semibold uppercase tracking-[0.24em] text-temple-gold/90">
+                      Attire Swatches
+                    </span>
+                    <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+                      ${swatchesHtml}
+                    </div>
+                  </div>
+
+                  <div class="flex flex-wrap items-center justify-center sm:justify-end gap-2.5">
+                    <a
+                      href="${ev.mapUrl}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-2 rounded-xl border border-temple-gold/52 bg-kalinga-maroon/75 px-4 py-2.5 text-xs font-semibold uppercase tracking-wider text-parchment-ivory transition hover:border-temple-light hover:bg-kalinga-crimson active:scale-95"
+                    >
+                      <svg class="w-4 h-4 text-temple-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      <span>Get Directions</span>
+                    </a>
+                    <button
+                      type="button"
+                      data-ics-id="${ev.id}"
+                      class="ics-download-btn inline-flex items-center gap-2 rounded-xl bg-temple-gold/20 border border-temple-light/55 px-4 py-2.5 text-xs font-semibold uppercase tracking-wider text-temple-pale transition hover:bg-temple-gold hover:text-kalinga-deep active:scale-95"
+                    >
+                      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                      <span>Add to Calendar (.ics)</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          `;
+        }).join('');
+
+        container.querySelectorAll('.ics-download-btn').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const found = WEDDING_EVENTS.find((item) => item.id === btn.getAttribute('data-ics-id'));
+            if (found) downloadICSFile(found);
+          });
+        });
+      }
+
+      /* =======================================================================
+         8. 3D PARALLAX (MOUSE & GYROSCOPE) + 3D TILT FOR PORTRAIT & EVENT CARDS
+         ======================================================================= */
+      function init3DParallaxAndTilt() {
+        const heroLayers = document.querySelectorAll('.hero-parallax-layer');
+        const tiltSurfaces = document.querySelectorAll('.tilt-3d-surface');
+
+        function applyHeroParallax(normX, normY) {
+          heroLayers.forEach((layer) => {
+            const depth = parseFloat(layer.getAttribute('data-depth')) || 15;
+            const moveX = normX * depth;
+            const moveY = normY * (depth * 0.65);
+            const rotY = normX * 6;
+            const rotX = -normY * 4.5;
+            layer.style.transform = `translate3d(${moveX.toFixed(1)}px, ${moveY.toFixed(1)}px, 0) rotateX(${rotX.toFixed(2)}deg) rotateY(${rotY.toFixed(2)}deg)`;
+          });
+        }
+
+        window.addEventListener('mousemove', (e) => {
+          const normX = (e.clientX / window.innerWidth - 0.5) * 2;
+          const normY = (e.clientY / window.innerHeight - 0.5) * 2;
+          applyHeroParallax(normX, normY);
+        }, { passive: true });
+
+        window.addEventListener('deviceorientation', (e) => {
+          if (e.gamma === null || e.beta === null) return;
+          const normX = Math.max(-1, Math.min(1, e.gamma / 30));
+          const normY = Math.max(-1, Math.min(1, (e.beta - 45) / 35));
+          applyHeroParallax(normX, normY);
+        }, { passive: true });
+
+        tiltSurfaces.forEach((surface) => {
+          function handleTilt(clientX, clientY) {
+            const rect = surface.getBoundingClientRect();
+            const px = (clientX - rect.left) / rect.width;
+            const py = (clientY - rect.top) / rect.height;
+            const rotY = (px - 0.5) * 11;
+            const rotX = (0.5 - py) * 9;
+            surface.style.transform = `rotateX(${rotX.toFixed(2)}deg) rotateY(${rotY.toFixed(2)}deg) translateZ(8px)`;
+            surface.style.setProperty('--sheen-x', `${(px * 100).toFixed(1)}%`);
+            surface.style.setProperty('--sheen-y', `${(py * 100).toFixed(1)}%`);
+            surface.style.setProperty('--sheen-opacity', '0.95');
+          }
+
+          function resetTilt() {
+            surface.style.transform = 'rotateX(0deg) rotateY(0deg) translateZ(0px)';
+            surface.style.setProperty('--sheen-opacity', '0.38');
+          }
+
+          surface.addEventListener('mousemove', (e) => handleTilt(e.clientX, e.clientY));
+          surface.addEventListener('mouseleave', resetTilt);
+          surface.addEventListener('touchmove', (e) => {
+            if (e.touches && e.touches[0]) handleTilt(e.touches[0].clientX, e.touches[0].clientY);
+          }, { passive: true });
+          surface.addEventListener('touchend', resetTilt);
+        });
+      }
+
+      /* =======================================================================
+         9. SCROLLYTELLING MOOD SHIFTS & ENTRANCE OBSERVERS
+         ======================================================================= */
+      function applyMoodTheme(moodKey, chapterLabel) {
+        const mood = MOOD_PALETTES[moodKey];
+        if (!mood) return;
+        activeMoodKey = moodKey;
+
+        const root = document.documentElement;
+        root.style.setProperty('--bg-primary', mood.bgPrimary);
+        root.style.setProperty('--bg-secondary', mood.bgSecondary);
+        root.style.setProperty('--accent-glow', mood.accentGlow);
+        root.style.setProperty('--accent-secondary', mood.accentSecondary);
+
+        const chapterText = document.getElementById('chapter-label');
+        const chapterDot = document.getElementById('chapter-dot');
+        if (chapterText && chapterLabel) chapterText.textContent = chapterLabel;
+        if (chapterDot) {
+          chapterDot.style.backgroundColor = mood.dotColor;
+          chapterDot.style.boxShadow = `0 0 10px ${mood.dotColor}`;
+        }
+      }
+
+      function initScrollObservers() {
+        const revealObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                revealObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: '0px 0px -35px 0px' }
+        );
+        document.querySelectorAll('.reveal-on-scroll').forEach((el) => revealObserver.observe(el));
+
+        const moodObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                applyMoodTheme(
+                  entry.target.getAttribute('data-mood'),
+                  entry.target.getAttribute('data-chapter')
+                );
+              }
+            });
+          },
+          { threshold: 0.4 }
+        );
+        document.querySelectorAll('[data-mood]').forEach((sec) => moodObserver.observe(sec));
+      }
+
+      /* =======================================================================
+         10. ACT 1 DOOR REVEAL, AUDIO PILL & REPLAY CONTROLLER
+         ======================================================================= */
+      const doorStage = document.getElementById('door-stage');
+      const mainInvitation = document.getElementById('main-invitation');
+      const openBtnSeal = document.getElementById('open-invitation-btn');
+      const openBtnText = document.getElementById('open-invitation-cta-text');
+      const audioControlPill = document.getElementById('audio-control-pill');
+      const audioToggleBtn = document.getElementById('audio-toggle-btn');
+      const soundwaveBars = document.getElementById('soundwave-bars');
+      const audioStatusLabel = document.getElementById('audio-status-label');
+      const musicStyleBtn = document.getElementById('music-style-btn');
+      const chapterIndicator = document.getElementById('chapter-indicator');
+      const replayBtn = document.getElementById('replay-opening-btn');
+
+      let doorsOpen = false;
+
+      function openKalingaDoors() {
+        if (doorsOpen) return;
+        doorsOpen = true;
+
+        WeddingAudio.startOpeningSequence();
+
+        try {
+          if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+            DeviceOrientationEvent.requestPermission().catch(() => {});
+          }
+        } catch (e) {}
+
+        doorStage.classList.add('is-opening');
+        mainInvitation.classList.add('courtyard-revealed');
+        triggerCelebratoryBurst(window.innerWidth / 2, window.innerHeight / 2, 72);
+
+        if (audioControlPill) {
+          audioControlPill.classList.remove('hidden');
+          audioControlPill.classList.add('flex');
+        }
+        if (chapterIndicator) {
+          chapterIndicator.classList.remove('opacity-0');
+        }
+
+        setTimeout(() => {
+          document.body.classList.remove('doors-locked');
+          doorStage.classList.add('doors-hidden');
+        }, 1450);
+      }
+
+      function replay3DOpening() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        setTimeout(() => {
+          doorsOpen = false;
+          applyMoodTheme('hero', 'Shree Jagannath Invocation');
+          document.body.classList.add('doors-locked');
+          doorStage.classList.remove('doors-hidden');
+          mainInvitation.classList.remove('courtyard-revealed');
+          void doorStage.offsetWidth;
+          doorStage.classList.remove('is-opening');
+        }, 550);
+      }
+
+      if (openBtnSeal) openBtnSeal.addEventListener('click', openKalingaDoors);
+      if (openBtnText) openBtnText.addEventListener('click', openKalingaDoors);
+      if (replayBtn) replayBtn.addEventListener('click', replay3DOpening);
+
+      if (audioToggleBtn) {
+        audioToggleBtn.addEventListener('click', () => {
+          const muted = WeddingAudio.toggleMute();
+          if (muted) {
+            soundwaveBars.classList.add('audio-paused');
+            audioStatusLabel.textContent = 'Muted';
+          } else {
+            soundwaveBars.classList.remove('audio-paused');
+            audioStatusLabel.textContent = 'Sound On';
+          }
+        });
+      }
+
+      if (musicStyleBtn) {
+        musicStyleBtn.addEventListener('click', () => {
+          const mode = WeddingAudio.toggleStyleMode();
+          musicStyleBtn.textContent = mode === 'flute' ? 'Flute & Santoor' : 'Temple Drone';
+          showToast(mode === 'flute' ? 'Playing: Bansuri Flute & Santoor Score' : 'Playing: Serene Temple Drone');
+        });
+      }
+
+      /* =======================================================================
+         11. DUAL LIVE COUNTDOWN TIMER (ENGAGEMENT & SUBHA BIBAHA IST)
+         ======================================================================= */
+      const COUNTDOWN_TARGETS = {
+        engagement: {
+          timestamp: new Date('2026-12-13T18:00:00+05:30').getTime(),
+          subtitle: 'Counting down to our Engagement at Grand Residency Hotel'
+        },
+        wedding: {
+          timestamp: new Date('2027-02-28T10:00:00+05:30').getTime(),
+          subtitle: 'Counting down to our Subha Bibaha at CMC Kalyani Mandap'
+        }
+      };
+
+      let activeCountdownKey = 'engagement';
+
+      function updateCountdown() {
+        const target = COUNTDOWN_TARGETS[activeCountdownKey].timestamp;
+        const diff = Math.max(0, target - Date.now());
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const mins = Math.floor((diff / (1000 * 60)) % 60);
+        const secs = Math.floor((diff / 1000) % 60);
+
+        const pad = (n) => String(n).padStart(2, '0');
+        const elDays = document.getElementById('cd-days');
+        const elHours = document.getElementById('cd-hours');
+        const elMins = document.getElementById('cd-mins');
+        const elSecs = document.getElementById('cd-secs');
+
+        if (elDays) elDays.textContent = String(days);
+        if (elHours) elHours.textContent = pad(hours);
+        if (elMins) elMins.textContent = pad(mins);
+        if (elSecs) elSecs.textContent = pad(secs);
+      }
+
+      function initDualCountdown() {
+        const tabs = document.querySelectorAll('.cd-toggle-btn');
+        const subtitleEl = document.getElementById('cd-subtitle');
+        const gridEl = document.getElementById('countdown-grid');
+
+        tabs.forEach((tab) => {
+          tab.addEventListener('click', () => {
+            const key = tab.getAttribute('data-target');
+            if (!COUNTDOWN_TARGETS[key] || key === activeCountdownKey) return;
+            activeCountdownKey = key;
+
+            tabs.forEach((t) => {
+              const isSelected = t.getAttribute('data-target') === key;
+              t.setAttribute('aria-selected', String(isSelected));
+              if (isSelected) {
+                t.classList.add('bg-gradient-to-r', 'from-[#A57A1F]', 'via-[#E5C158]', 'to-[#B48420]', 'text-kalinga-deep', 'font-bold', 'shadow-md');
+                t.classList.remove('text-parchment-cream/80', 'font-semibold');
+              } else {
+                t.classList.remove('bg-gradient-to-r', 'from-[#A57A1F]', 'via-[#E5C158]', 'to-[#B48420]', 'text-kalinga-deep', 'font-bold', 'shadow-md');
+                t.classList.add('text-parchment-cream/80', 'font-semibold');
+              }
+            });
+
+            if (subtitleEl) subtitleEl.textContent = COUNTDOWN_TARGETS[key].subtitle;
+            if (gridEl) {
+              gridEl.classList.remove('countdown-pop');
+              void gridEl.offsetWidth;
+              gridEl.classList.add('countdown-pop');
+            }
+            updateCountdown();
+          });
+        });
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+      }
+
+      /* =======================================================================
+         12. FULLY WIRED WHATSAPP RSVP (+91 88478 95107)
+         ======================================================================= */
+      function initRSVP() {
+        const form = document.getElementById('rsvp-form');
+        const errorBox = document.getElementById('rsvp-error-box');
+        const confirmationBox = document.getElementById('rsvp-confirmation');
+        const attendingDetails = document.getElementById('attending-details');
+        const attendBtns = document.querySelectorAll('.attend-toggle-btn');
+        const guestMinus = document.getElementById('guest-minus');
+        const guestPlus = document.getElementById('guest-plus');
+        const guestDisplay = document.getElementById('guest-count-display');
+        const eventPills = document.querySelectorAll('.event-pill');
+        const editBtn = document.getElementById('edit-rsvp-btn');
+        const whatsappBtn = document.getElementById('whatsapp-share-btn');
+        const confirmHeading = document.getElementById('confirm-heading');
+        const confirmSummary = document.getElementById('confirm-summary');
+
+        let isAttending = true;
+        let guestCount = 2;
+
+        attendBtns.forEach((btn) => {
+          btn.addEventListener('click', () => {
+            isAttending = btn.getAttribute('data-attend') === 'yes';
+            attendBtns.forEach((b) => {
+              const active = (b.getAttribute('data-attend') === 'yes') === isAttending;
+              if (active) {
+                b.classList.add('border-temple-light', 'bg-temple-gold/25', 'text-temple-pale', 'font-semibold');
+                b.classList.remove('border-temple-gold/30', 'bg-kalinga-maroon/40', 'text-parchment-cream/75');
+              } else {
+                b.classList.remove('border-temple-light', 'bg-temple-gold/25', 'text-temple-pale', 'font-semibold');
+                b.classList.add('border-temple-gold/30', 'bg-kalinga-maroon/40', 'text-parchment-cream/75');
+              }
+            });
+            attendingDetails.style.display = isAttending ? 'block' : 'none';
+          });
+        });
+
+        if (guestMinus) {
+          guestMinus.addEventListener('click', () => {
+            if (guestCount > 1) {
+              guestCount--;
+              guestDisplay.textContent = String(guestCount);
+            }
+          });
+        }
+        if (guestPlus) {
+          guestPlus.addEventListener('click', () => {
+            if (guestCount < 10) {
+              guestCount++;
+              guestDisplay.textContent = String(guestCount);
+            }
+          });
+        }
+
+        eventPills.forEach((pill) => {
+          pill.addEventListener('click', () => {
+            const isActive = pill.classList.toggle('active');
+            const label = pill.getAttribute('data-event');
+            if (isActive) {
+              pill.textContent = `✓ ${label}`;
+              pill.classList.add('border-temple-light', 'bg-temple-gold/25', 'text-temple-pale');
+              pill.classList.remove('border-temple-gold/25', 'bg-kalinga-maroon/40', 'text-parchment-cream/65');
+            } else {
+              pill.textContent = label;
+              pill.classList.remove('border-temple-light', 'bg-temple-gold/25', 'text-temple-pale');
+              pill.classList.add('border-temple-gold/25', 'bg-kalinga-maroon/40', 'text-parchment-cream/65');
+            }
+          });
+        });
+
+        if (form) {
+          form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const nameInput = document.getElementById('guest-name');
+            const blessingInput = document.getElementById('blessing-msg');
+            const guestName = (nameInput.value || '').trim();
+            const blessing = (blessingInput.value || '').trim();
+
+            if (!guestName) {
+              errorBox.classList.remove('hidden');
+              nameInput.focus();
+              return;
+            }
+            errorBox.classList.add('hidden');
+
+            const selectedEvents = Array.from(document.querySelectorAll('.event-pill.active')).map((p) =>
+              p.getAttribute('data-event')
+            );
+
+            // Celebratory Marigold & Gold Glitter Burst + Chime
+            triggerCelebratoryBurst(window.innerWidth / 2, window.innerHeight * 0.52, 110);
+            WeddingAudio.playTempleBell(0.75);
+
+            let waText = '';
+            if (isAttending) {
+              const eventsList = selectedEvents.length ? selectedEvents.join(', ') : 'All Wedding Celebrations';
+              confirmHeading.textContent = `See You Soon, ${guestName}!`;
+              confirmSummary.textContent = `We are thrilled to welcome ${guestCount} ${guestCount === 1 ? 'guest' : 'guests'} for ${eventsList}. Jay Jagannath!`;
+              waText =
+                `🙏 *Jay Jagannath! Wedding RSVP — Real & Sujit* 💍\n\n` +
+                `👤 *Guest:* ${guestName}\n` +
+                `✅ *Status:* Joyfully Accepts\n` +
+                `👥 *Guests:* ${guestCount}\n` +
+                `🎉 *Ceremonies:* ${eventsList}` +
+                (blessing ? `\n🪷 *Blessings:* "${blessing}"` : '');
+            } else {
+              confirmHeading.textContent = `Thank You, ${guestName}`;
+              confirmSummary.textContent = `We will dearly miss celebrating with you in person, and we truly cherish your warm love and blessings for Real & Sujit.`;
+              waText =
+                `🙏 *Jay Jagannath! Wedding RSVP — Real & Sujit* 🪷\n\n` +
+                `👤 *Guest:* ${guestName}\n` +
+                `💌 *Status:* Regretfully Declines (Sending warm blessings!)` +
+                (blessing ? `\n✨ *Blessings:* "${blessing}"` : '');
+            }
+
+            const waUrl = `https://wa.me/${HOST_WHATSAPP_NUMBER}?text=${encodeURIComponent(waText)}`;
+            whatsappBtn.href = waUrl;
+
+            form.classList.add('hidden');
+            confirmationBox.classList.remove('hidden');
+            showToast('Opening WhatsApp confirmation...');
+
+            // Attempt direct WhatsApp open (backup button stays visible if popups are blocked)
+            try {
+              window.open(waUrl, '_blank', 'noopener,noreferrer');
+            } catch (err) {}
+          });
+        }
+
+        if (editBtn) {
+          editBtn.addEventListener('click', () => {
+            confirmationBox.classList.add('hidden');
+            form.classList.remove('hidden');
+          });
+        }
+      }
+
+      /* =======================================================================
+         13. INITIALIZATION ON WINDOW LOAD
+         ======================================================================= */
+      window.addEventListener('resize', resizeCanvas, { passive: true });
+
+      window.onload = function () {
+        renderEventCards();
+        initCouplePortraitFrame();
+        resizeCanvas();
+        initParticles();
+        if (!isCanvasRunning) {
+          isCanvasRunning = true;
+          requestAnimationFrame(animateAtmosphere);
+        }
+        initDualCountdown();
+        init3DParallaxAndTilt();
+        initScrollObservers();
+        initRSVP();
+      };
+    })();
+  </script>
+</body>
+</html>
