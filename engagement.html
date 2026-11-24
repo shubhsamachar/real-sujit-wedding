@@ -1317,6 +1317,27 @@
             ></textarea>
           </div>
 
+          <!-- Send RSVP To (Groom's Side / Bride's Side) -->
+          <div>
+            <span class="block text-xs font-semibold uppercase tracking-[0.2em] text-champagne-light mb-2">
+              Send RSVP To
+            </span>
+            <div class="grid grid-cols-2 gap-3">
+              <label class="cursor-pointer">
+                <input type="radio" name="rsvp-side" value="sujit" class="peer sr-only" checked />
+                <div class="flex items-center justify-center rounded-xl border border-champagne-light/25 bg-sapphire-abyss/55 px-3 py-3.5 text-center text-xs sm:text-sm font-medium text-pearl-mist/75 transition hover:border-champagne-light/55 peer-checked:border-champagne-bright peer-checked:bg-champagne-gold/25 peer-checked:text-champagne-bright peer-checked:font-semibold peer-checked:shadow-md">
+                  Groom’s Side (Sujit)
+                </div>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="rsvp-side" value="real" class="peer sr-only" />
+                <div class="flex items-center justify-center rounded-xl border border-champagne-light/25 bg-sapphire-abyss/55 px-3 py-3.5 text-center text-xs sm:text-sm font-medium text-pearl-mist/75 transition hover:border-champagne-light/55 peer-checked:border-champagne-bright peer-checked:bg-champagne-gold/25 peer-checked:text-champagne-bright peer-checked:font-semibold peer-checked:shadow-md">
+                  Bride’s Side (Real)
+                </div>
+              </label>
+            </div>
+          </div>
+
           <button
             type="submit"
             class="w-full rounded-xl bg-gradient-to-r from-[#b58c2a] via-[#f4d78e] to-[#c99e32] px-6 py-4 text-sm font-bold uppercase tracking-[0.2em] text-sapphire-abyss shadow-[0_12px_32px_rgba(212,175,55,0.34)] transition hover:brightness-110 active:scale-[0.98]"
@@ -1337,7 +1358,7 @@
             </h3>
             <p id="confirm-summary" class="mx-auto max-w-md font-serif text-base sm:text-lg text-pearl-ivory/90 leading-relaxed"></p>
             <p class="text-xs text-pearl-mist/65">
-              If WhatsApp didn’t open automatically, tap below to send your pre-filled RSVP to <span class="text-champagne-light font-medium">+91 88478 95107</span>.
+              If WhatsApp didn’t open automatically, tap below to send your pre-filled RSVP to <span id="confirm-recipient-name" class="text-champagne-light font-medium">Sujit</span>.
             </p>
           </div>
 
@@ -1352,7 +1373,7 @@
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.766.469 3.484 1.344 5l-1.406 5.156 5.281-1.391c1.469.797 3.109 1.219 4.75 1.219 5.516 0 9.969-4.453 9.969-9.969S17.547 2 12.031 2zm5.828 14.125c-.25.703-1.438 1.344-2 1.422-.516.078-1.172.109-1.891-.125-.438-.141-1-.328-1.719-.641-3.031-1.312-5-4.375-5.156-4.578-.156-.203-1.234-1.641-1.234-3.125s.781-2.219 1.062-2.516c.281-.297.609-.375.812-.375s.406.016.578.016c.188 0 .438-.078.688.531.25.609.859 2.094.938 2.25.078.156.125.344.031.547-.094.203-.141.328-.297.5-.156.172-.312.391-.453.516-.141.141-.297.297-.125.594.172.297.766 1.266 1.656 2.047 1.141 1.016 2.094 1.328 2.391 1.484.297.156.469.125.641-.078.172-.203.734-.859.938-1.156.203-.297.391-.25.656-.156.266.094 1.703.797 2 .953.297.156.484.219.562.344.078.125.078.734-.172 1.438z"/>
               </svg>
-              <span>Open WhatsApp Confirmation</span>
+              <span id="whatsapp-confirm-label">Open WhatsApp Confirmation</span>
             </a>
             <button
               type="button"
@@ -1374,7 +1395,7 @@
         <p class="font-odia text-lg text-champagne-light">॥ ଶ୍ରୀ ଜଗନ୍ନାଥାୟ ନମଃ ॥</p>
 
         <!-- Direct WhatsApp Host Contact Button -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 w-full">
+        <div class="flex flex-row flex-wrap items-center justify-center gap-3 w-full">
           <!-- Groom (Sujit) WhatsApp -->
           <a
             href="https://wa.me/918847895107?text=Hi%20Sujit!%20Congratulations%20on%20the%20engagement!"
@@ -1432,7 +1453,11 @@
     (function () {
       'use strict';
 
-      const HOST_WHATSAPP_NUMBER = '918847895107';
+      const WHATSAPP_NUMBERS = {
+        sujit: '918847895107',
+        real: '917978015830'
+      };
+      const HOST_WHATSAPP_NUMBER = WHATSAPP_NUMBERS.sujit;
       const ENGAGEMENT_TARGET_TS = new Date('2026-12-13T18:00:00+05:30').getTime();
 
       /* =======================================================================
@@ -2265,7 +2290,7 @@
       }
 
       /* =======================================================================
-         9. ENGAGEMENT-ONLY INTERACTIVE WHATSAPP RSVP (+91 88478 95107)
+         9. ENGAGEMENT-ONLY INTERACTIVE WHATSAPP RSVP (SUJIT & REAL)
          ======================================================================= */
       function initEngagementRSVP() {
         const form = document.getElementById('rsvp-form');
@@ -2362,12 +2387,22 @@
                 (wishes ? `\n💌 *Wishes:* "${wishes}"` : '');
             }
 
-            const waUrl = `https://wa.me/${HOST_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+            const selectedSideEl = document.querySelector('input[name="rsvp-side"]:checked');
+            const selectedSide = selectedSideEl ? selectedSideEl.value : 'sujit';
+            const targetNumber = WHATSAPP_NUMBERS[selectedSide] || HOST_WHATSAPP_NUMBER;
+            const targetName = selectedSide === 'real' ? 'Real' : 'Sujit';
+
+            const waUrl = `https://wa.me/${targetNumber}?text=${encodeURIComponent(message)}`;
             waBtn.href = waUrl;
+
+            const recipientNameEl = document.getElementById('confirm-recipient-name');
+            if (recipientNameEl) recipientNameEl.textContent = targetName;
+            const waBtnLabel = document.getElementById('whatsapp-confirm-label');
+            if (waBtnLabel) waBtnLabel.textContent = `Open WhatsApp for ${targetName}`;
 
             form.classList.add('hidden');
             confirmCard.classList.remove('hidden');
-            showToast('Opening WhatsApp RSVP confirmation...');
+            showToast(`Opening WhatsApp RSVP for ${targetName}...`);
 
             try {
               window.open(waUrl, '_blank', 'noopener,noreferrer');
